@@ -12,6 +12,7 @@ This repository contains the documentation for the language.
 
 
 ## Get in touch  
-Use GitHub's issue reporter on the right <br>
-Send me an email vchernev91@abv.bg (might take a few days) <br>
-You can reach me on Viber as well: +359-885-18-05-86 <br>
+- Use GitHub's issue reporter on the right
+- Send an email contact@listiary.org
+- Or, contact the founder directly at vchernev91@abv.bg (might take a few days)
+- You can reach him on Viber as well: +359-885-18-05-86
