@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Listiary Wiki - Index | Documentation</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Listiary Wiki - Index" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Describe Compiler Documentation" />
+<meta property="og:description" content="Describe Compiler Documentation" />
+<link rel="canonical" href="http://localhost:4000/listiary/wiki/index/" />
+<meta property="og:url" content="http://localhost:4000/listiary/wiki/index/" />
+<meta property="og:site_name" content="Documentation" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Listiary Wiki - Index" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Describe Compiler Documentation","headline":"Listiary Wiki - Index","url":"http://localhost:4000/listiary/wiki/index/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Documentation" /></head>
+<body><header style="background-color: #ccc;" class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Documentation</a><nav style="background-color: #ccc;" class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+				<a class="page-link" href="/language/how-to-write/">Language Home</a>
+				<a class="page-link" href="/language/how-to-compile/">Compiler Home</a>
+				<a class="page-link" href="/language/reference/">Tech Reference</a>
+				<a class="page-link" href="/language/">About Describe</a>
+				<a class="page-link" href="/listiary/">About Listiary</a>
+				<a class="page-link" href="https://library.listiary.com/">Describe Library</a>
+				<a class="page-link" href="/language/site-map/">Site Map</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Listiary Wiki - Index</h1>
+  </header>
+
+  <div class="post-content">
+    <p><br />
+The listiary wiki is a php/javascript based software, consisting of few modules. Each module has its own folder that contain all the files, except for the Index module - where the main php files are outside the module folder, into the main directory - as they are the main pages of the web app. Let’s see what the index does.
+<br /><br />
+<code class="language-plaintext highlighter-rouge">/index</code><br />
+<code class="language-plaintext highlighter-rouge">index.php</code><br />
+<code class="language-plaintext highlighter-rouge">/m.index</code><br />
+<code class="language-plaintext highlighter-rouge">m.index.php</code><br />
+<code class="language-plaintext highlighter-rouge">favicon.ico</code><br />
+<br />
+These are the main pages of the Listiary web app - <code class="language-plaintext highlighter-rouge">m.index.html</code> and <code class="language-plaintext highlighter-rouge">index.html</code> - the mobile and the desktop version, and the favicon for the app/site - <code class="language-plaintext highlighter-rouge">favicon.ico</code>. All other files in the module are contained inside the <code class="language-plaintext highlighter-rouge">/index</code> and <code class="language-plaintext highlighter-rouge">/m.index</code> folders - media, css, javascript files, etc. The mobile version is the one being developed at the moment, and we will dissect it, for this reason.
+<br />
+<br />
+In the head, we have a reference to the main CSS for the page - <code class="language-plaintext highlighter-rouge">/index/m.index.styles.css</code>.
+And in the body, we have:</p>
+<ul>
+  <li>The sidenav section - that is the content inside the hamburger menu.</li>
+  <li>The triggers section - currently has only one trigger - that hamburger button for the menu.</li>
+  <li>The main page skeleton table.</li>
+  <li>The scripts section - where all the scripts for the module are loaded.
+<br />
+<br /></li>
+</ul>
+
+<h3 id="1-scripts">1. Scripts</h3>
+<p>Apart from the CSS, the website index functionality resides in the JavaScript files.
+Look at <a href="/listiary/wiki/scripts/">Listiary Wiki - Scripts</a> for more on scripts.
+<br />
+<br /></p>
+
+<h3 id="2-triggers">2. Triggers</h3>
+<p>Triggers are those icons on the website header. At the moment we have only one trigger - that hamburger button - that opens the side navigation menu. But we will probably, at least add a search button in the future. We also had the idea of having a language button - where you can choose from different language versions of the current list - just like on wikipedia.
+<br />
+Pressing the hamburger button calls <code class="language-plaintext highlighter-rouge">openNav()</code> from the main script - making the sidenav visible.
+<br />
+<br /></p>
+
+<h3 id="3-sidenav">3. Sidenav</h3>
+<p>First, we have the close botton inside the sidenav - that closes the sidenav by calling <code class="language-plaintext highlighter-rouge">closeNav()</code> from the main script - making the sidenav invisible. Then, we have the “show next menu” arrow - that shows the menu with all the tools, by calling <code class="language-plaintext highlighter-rouge">showNextMenu()</code>. The rest is the main menu, and the next menu - with the tools. From that menu with the tools, we have a submenu for each tool category. It opens a specific sub-menu by hiding/unhiding elements. Those menus contain 3 anchor elements each - the first is a new line element, and the other two are horizontal lines - <code class="language-plaintext highlighter-rouge">hr</code>. All the tools are added as plugin scripts, and they add their elements (triggers) in those sub-menus. And here is what those sub-menus are about:</p>
+
+<ul>
+  <li>Highlighters - tools that you choose to highlight elements in different colors - in a highlighter fashion.</li>
+  <li>Sorters - tools that sort the list - alphabetically, by some decorator, etc.</li>
+  <li>Copiers - tools that copy elements being clicked - the text, copy as Json, etc.</li>
+  <li>Pickers - tools to pick a random element.</li>
+  <li>Viewers - tools to hide or show different pieces of data in the entries.</li>
+  <li>Filters - tools to filter entries.</li>
+  <li>Languages - Toggle different language versions of the list, if any other languages are available.</li>
+  <li>Plugins - The Listiary plugins.</li>
+  <li>Droppers - The idea of having droppers, however useful or not, is this - like we have pickers that pick a random entry, by some criteria, droppers will remove a random entry from a list, by some criteria.</li>
+  <li>Extenders - The idea of having extenders, is this -
+<br />
+<br /></li>
+</ul>
+
+<h3 id="4-main-scaffolding--page-skeleton">4. Main scaffolding / page skeleton</h3>
+<p>We use a table for organizing the page layout. Nothing special here.
+The mobile version has 2 rows / cells - the top container and the main container.
+The main container also contains the bottom toolbar - those circular controls on longer lists.
+<br />
+<br /></p>
+
+<h3 id="links">Links</h3>
+<p><a href="/listiary/wiki/">Listiary Wiki</a><br />
+<a href="/listiary/wiki/repo-map/">Listiary Wiki - Repo map</a><br />
+<a href="/listiary/wiki/plugins/">Listiary Wiki - Plugins</a><br />
+<a href="/listiary/wiki/scripts/">Listiary Wiki - Scripts</a><br />
+<br />
+<a href="/listiary/">Back</a></p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer style="background-color: #ccc;" class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+  
+	github: <a href="https://github.com/viktorchernev/DescribeCompiler">viktorchernev</a><br>email: <a class="u-email" href="mailto:vchernev91@abv.bg">vchernev91@abv.bg</a><!-- <h2 class="footer-heading">Documentation</h2> 
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Documentation</li><li><a class="u-email" href="mailto:vchernev91@abv.bg">vchernev91@abv.bg</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/viktorchernev"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">viktorchernev</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Describe Compiler Documentation</p>
+      </div>
+    </div>-->
+
+  </div>
+
+</footer>
+</body>
+
+</html>

@@ -13,9 +13,15 @@ Describe is built and developed for Listiary, but can also be used on its own. D
 
 <br>
 ### Links
-[Documentation Project](/listiary/documentation/home/)<br>
+[Documentation](/listiary/documentation/home/)<br>
 [Documentation - Repo map](/listiary/documentation/repo-map/)<br>
 [Documentation - How to edit](/listiary/documentation/how-to/)<br>
+<br>
+[Listiary Wiki](/listiary/wiki/)<br>
+[Listiary Wiki - Repo map](/listiary/wiki/repo-map/)<br>
+[Listiary Wiki - Plugins](/listiary/wiki/plugins/)<br>
+[Listiary Wiki - Index](/listiary/wiki/index/)<br>
+[Listiary Wiki - Scripts](/listiary/wiki/scripts/)<br>
 <br>
 [Radiowatch](/listiary/radiowatch/)<br>
 [Radiowatch - FAQ](/listiary/radiowatch/ifaq/)<br>

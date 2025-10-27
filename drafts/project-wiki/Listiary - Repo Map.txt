@@ -1,0 +1,45 @@
+Repo Map
+
+In the repository for the describe project, we have few special folders `.work`, `.media`, `.documentation` - and many more functional ones - each containing a module of the web app. In this article we will describe the folders layout in some detail. Also, The layout in the work folder is a bit messy and will evolve over time.
+
+
+1. Documentation
+
+`/.documentation`
+
+In the documentation folder we store all the local documentation - like bug reports, change logs for different modules, etc. You might ask - why not store the documentation in the DescribeDocumentation repo - and we do eventually copy some of this local documentation there, and turn it to articles. But this is the local place for storing all kinds of documentation drafts and such.
+
+
+2. Media
+
+`/.media`
+
+In the media folder we store all kinds of images, related to the projects. Those are mostly various icons used in the website.
+
+
+3. Work
+
+`/.work`
+
+In the work folder we do actual development. Here, we have old versions of stuff - like this module or the whole website, and we have folders that contain small sub-projects. The ones that are purely archival are in folders that start with a dot - `.Old Listiary Versions`, `.Old Listiary Versions - Last`, `.Minified` - containing copies of minified scripts - etc. and the others - well - does not. Here is a list:
+
+- `/.Old Listiary Versions` - Archive of different versions of the Listiary web app.
+- `/.Old Listiary Versions - Last` - Last version of the Listiary web app - to be used to copy codes from.
+- `/.Minified` - Archive of our scripts that we have minified.
+- `/index-tools` - Contains individual tools into individual `.js` files. We eventually concatenate those into one script for better loading - `listiaring.js`. We have a "/.not-used" folder which contains scraped tools' drafts.
+- `/.index-scripts` - Archive of the index module main scripts - both for the mobile and for the full versions.
+- `/.index-plugins` - Work directory and archive for the plugins for the Listiary web app.
+- `/.index-main-tree` - Archive for the main treelibrary we are developing.
+- `/.index-listiaring` - Archive for the `listiaring.js` files versions we built from our tools in the past.
+
+
+4. Modules
+
+- `/sources` - Sources - Local sources / payloads for testing with the local files plugin.
+- `/session` - Session - The session module for the web app.
+- `/search` - Search - This folder is empty yet, but it will contain the search module, which has not been developed yet.
+- `/index`, `index.php`, `favicon.ico` - Index - The index module - the full version of the site.
+- `/m.index`, `m.index.php`, `favicon.ico` - Mobile Index - The mobile index module - the full version of the site.
+- `/editor` - Editor - The editor module (Using Codemirror. Not great. Should try Monaco)
+- `/docs` - Documentation pages - like terms of service, licensing, and cookic consent documents.
+- `/contact` - Contact pages mobile and full.

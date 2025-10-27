@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Radiowatch - FAQ
+title: Radiowatch Project
 permalink: /listiary/radiowatch/
 exclude: true
 ---

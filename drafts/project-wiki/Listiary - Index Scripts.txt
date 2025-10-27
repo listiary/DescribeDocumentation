@@ -1,0 +1,23 @@
+The listiary wiki is a php/javascript based software, consisting of few modules. Each module has its own folder that contains all the files, except for the Index module - where the main php files are outside the module folder, into the main directory - as they are the main pages of the web app.
+In this article we will see how the main scripts for the index module work.
+
+
+    1. Get the media type
+
+    First thing we do is to get the media type we are on, so that we can redirect to another version of the site if needed - like the mobile version e.g.
+    We do this by utilizing the `mobile-detector.js` class.
+
+
+    2. Read URL arguments
+
+    We parse the current URL of the page, looking for few arguments we will be keeping in variables:
+    - domain - or mode - wether we show only Public, or also Personal or may be even Private or Normative lists.
+    - article - the id of the article to be loaded.
+    After that, we proceed to load the JSON payload by using a slightly different procedures, depending on the mode we are in. We also color the header strip accordingly, given that it has not been disabled in the options script.
+    Finally, we start the history demon.
+
+
+    3. Load Payload JSON
+
+
+    X. Php code
