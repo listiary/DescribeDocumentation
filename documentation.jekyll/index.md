@@ -3,18 +3,26 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Describe Language Documentation
-# permalink: /language/
+title: Listiary Documentation
+# permalink: /listiary/
 exclude: true
 ---
-<br>
-Describe is a domain specific markup language designed to write and maintain complex data lists that are compiled on demand to various formats, such as html, xml, sql and json. It is simple to use, intuitive and easy to master. Describe is readily extendable - implementing support for new target languages or customizing the transpilation process is straightforward, making it adaptable to a wide range of projects.<br><br>
+<br>While Describe is a markup language for writing complex lists, Listiary is a wiki software for such lists, powered by Describe. The same way as Wikipedia, where users write articles in Wiki markup, in Listiary users write lists in Describe markup.
 
-### Links
-[Learn to write Describe code](/language/how-to-write/)<br>
-[Learn to compile Describe code](/language/how-to-compile/)<br>
-[Browse the Describe library](https://library.listiary.com/)<br>
-[Read the Technical reference](/language/reference/)<br>
-[Site map](/language/site-map/)<br>
+Describe is built and developed for Listiary, but can also be used on its own. Both Listiary and Describe are free and copyleft-ed, under the [GNU Affero General Public License, version 3 (AGPLv3)](https://www.gnu.org/licenses/agpl-3.0.html).
+
 <br>
-[Project Listiary](/listiary/)
+### Links
+[Listiary Wiki](/listiary/wiki/)<br>
+[Listiary Wiki - Repo map](/listiary/wiki/repo-map/)<br>
+[Listiary Wiki - Plugins](/listiary/wiki/plugins/)<br>
+[Listiary Wiki - Index](/listiary/wiki/index/)<br>
+[Listiary Wiki - Scripts](/listiary/wiki/scripts/)<br>
+[Social Outreach](/listiary/outreach/)<br>
+<br>
+[Subproject Documentation](/listiary/documentation/home/)<br>
+[Subproject Radiowatch](/listiary/radiowatch/)<br>
+<br>
+[Subproject Maps](/listiary/maps/)<br>
+[Video Documentation](/listiary/videodocs/)<br>
+[Project Describe](/language/)<br>

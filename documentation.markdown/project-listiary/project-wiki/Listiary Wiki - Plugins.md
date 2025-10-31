@@ -57,5 +57,4 @@ The plugin has not been implemented yet.
 [Listiary Wiki - Index](/listiary/wiki/index/)<br>
 [Listiary Wiki - Scripts](/listiary/wiki/scripts/)<br>
 <br>
-[Project Listiary](/listiary/)<br>
-[Project Describe](/language/)
+[Back](/listiary/)

@@ -101,5 +101,4 @@ See [pipeline-w article](/listiary/radiowatch/pipeline-w/) for more details - Se
 [Radiowatch - Pipeline K](/listiary/radiowatch/pipeline-k/)<br>
 [Radiowatch - Pipeline W](/listiary/radiowatch/pipeline-w/)<br>
 <br>
-[Project Listiary](/listiary/)<br>
-[Project Describe](/language/)
+[Back](/listiary/)

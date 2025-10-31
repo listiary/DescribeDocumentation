@@ -75,5 +75,4 @@ Our gratitude.
 [Radiowatch - Pipeline W](/listiary/radiowatch/pipeline-w/)<br>
 [Radiowatch - Repo Map](/listiary/radiowatch/repo-map/)<br>
 <br>
-[Project Listiary](/listiary/)<br>
-[Project Describe](/language/)
+[Back](/listiary/)

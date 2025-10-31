@@ -61,5 +61,4 @@ We have a local copy of the "Listiary" wiki here, that we use for testing. It is
 [Radiowatch - Pipeline K](/listiary/radiowatch/pipeline-k/)<br>
 [Radiowatch - Repo Map](/listiary/radiowatch/repo-map/)<br>
 <br>
-[Project Listiary](/listiary/)<br>
-[Project Describe](/language/)
+[Back](/listiary/)

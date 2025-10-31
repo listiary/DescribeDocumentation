@@ -117,5 +117,4 @@ The main scripts for the app. `dom-create` and `dom-manipulate` are responsible 
 [Listiary Wiki - Plugins](/listiary/wiki/plugins/)<br>
 [Listiary Wiki - Index](/listiary/wiki/index/)<br>
 <br>
-[Project Listiary](/listiary/)<br>
-[Project Describe](/language/)
+[Back](/listiary/)

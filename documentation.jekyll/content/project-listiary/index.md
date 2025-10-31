@@ -9,7 +9,7 @@ exclude: true
 ---
 <br>While Describe is a markup language for writing complex lists, Listiary is a wiki software for such lists, powered by Describe. The same way as Wikipedia, where users write articles in Wiki markup, in Listiary users write lists in Describe markup.
 
-Describe is built and developed for Listiary, but can also be used on its own. Describe is free and copyleft-ed, while Listiary is proprietary, at the present.
+Describe is built and developed for Listiary, but can also be used on its own. Both Listiary and Describe are free and copyleft-ed, under the [GNU Affero General Public License, version 3 (AGPLv3)](https://www.gnu.org/licenses/agpl-3.0.html).
 
 <br>
 ### Links
@@ -18,7 +18,11 @@ Describe is built and developed for Listiary, but can also be used on its own. D
 [Listiary Wiki - Plugins](/listiary/wiki/plugins/)<br>
 [Listiary Wiki - Index](/listiary/wiki/index/)<br>
 [Listiary Wiki - Scripts](/listiary/wiki/scripts/)<br>
+[Social Outreach](/listiary/outreach/)<br>
 <br>
 [Subproject Documentation](/listiary/documentation/home/)<br>
 [Subproject Radiowatch](/listiary/radiowatch/)<br>
-[Project Describe](/language/)
+<br>
+[Subproject Maps](/listiary/maps/)<br>
+[Video Documentation](/listiary/videodocs/)<br>
+[Project Describe](/language/)<br>

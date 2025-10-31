@@ -67,5 +67,4 @@ The main container also contains the bottom toolbar - those circular controls on
 [Listiary Wiki - Plugins](/listiary/wiki/plugins/)<br>
 [Listiary Wiki - Scripts](/listiary/wiki/scripts/)<br>
 <br>
-[Project Listiary](/listiary/)<br>
-[Project Describe](/language/)
+[Back](/listiary/)
