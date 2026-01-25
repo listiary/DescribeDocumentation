@@ -26,9 +26,9 @@ Radiowatch is the first wiki of the listiary project to be made available online
 
 ## How Radiowatch works?
 
-Radiowatch is a listiary wiki dedicated to creating and curating information about various FM and web-based radio stations - mostly where to listen and a historic record of the songs played. There are also numerous playlists users create and share, radio websites and apps, artist and song directories, etc.
+Radiowatch is a Listiary wiki dedicated to creating and curating information about various FM and web-based radio stations - mostly where to listen and a historic record of the songs played. There are also numerous playlists users create and share, radio websites and apps, artist and song directories, etc.
 
-Radiowatch works as any normal listiary wiki - users can read the content freely and registered users can contribute data.
+Radiowatch works as any normal Listiary wiki - users can read the content freely and registered users can contribute data.
 Users can also create their personal content, that others can browse, and paid users can also create private content, that only they can access.
 This wiki also relies on bots to automate some of the article creation process.
 
@@ -61,7 +61,7 @@ Radiowatch will offer paid accounts in the future.
 For a subscription fee of around $4/month, users will get the right to host their own private content on the platform that they choose if and how to share with others.
 The ability to lock personal content for a period of time and sell early access to it. 
 Removal of messages asking for donations (and ads, if we are currently using any on a given wiki).
-A mention in the listiary [hall of fame].
+A mention in the Listiary [hall of fame].
 Possible future perks we implement.
 Our gratitude.
 <br>

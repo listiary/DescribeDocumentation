@@ -77,7 +77,7 @@ Mobile Index - The mobile index module - the full version of the site.<br>
 Editor - The editor module (Using Codemirror. Not great. Should try Monaco)<br>
 <br>
 `/docs`<br>
-Documentation pages - like terms of service, licensing, and cookic consent documents.<br>
+Documentation pages - like terms of service, licensing, and cookie consent documents.<br>
 <br>
 `/contact`<br>
 Contact pages mobile and full.

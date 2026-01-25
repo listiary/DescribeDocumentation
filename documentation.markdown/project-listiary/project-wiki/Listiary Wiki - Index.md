@@ -39,7 +39,7 @@ Pressing the hamburger button calls `openNav()` from the main script - making th
 <br>
 
 ### 3. Sidenav
-First, we have the close botton inside the sidenav - that closes the sidenav by calling `closeNav()` from the main script - making the sidenav invisible. Then, we have the "show next menu" arrow - that shows the menu with all the tools, by calling `showNextMenu()`. The rest is the main menu, and the next menu - with the tools. From that menu with the tools, we have a submenu for each tool category. It opens a specific sub-menu by hiding/unhiding elements. Those menus contain 3 anchor elements each - the first is a new line element, and the other two are horizontal lines - `hr`. All the tools are added as plugin scripts, and they add their elements (triggers) in those sub-menus. And here is what those sub-menus are about:
+First, we have the close button inside the sidenav - that closes the sidenav by calling `closeNav()` from the main script - making the sidenav invisible. Then, we have the "show next menu" arrow - that shows the menu with all the tools, by calling `showNextMenu()`. The rest is the main menu, and the next menu - with the tools. From that menu with the tools, we have a submenu for each tool category. It opens a specific sub-menu by hiding/unhiding elements. Those menus contain 3 anchor elements each - the first is a new line element, and the other two are horizontal lines - `hr`. All the tools are added as plugin scripts, and they add their elements (triggers) in those sub-menus. And here is what those sub-menus are about:
 
 - Highlighters - tools that you choose to highlight elements in different colors - in a highlighter fashion.
 - Sorters - tools that sort the list - alphabetically, by some decorator, etc.

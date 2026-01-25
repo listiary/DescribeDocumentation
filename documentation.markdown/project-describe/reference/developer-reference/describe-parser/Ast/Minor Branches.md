@@ -134,7 +134,7 @@ Specifies the type of simple decorator in an abstract syntax tree (AST).
             EmptyDecorator - Represents an empty decorator type. 
             BoldDecorator - Represents a bold decorator type.
             ItalicDecorator - Represents an italic decorator type.
-            StrikedDecorator - Represents a striked-through decorator type.
+            StrikedDecorator - Represents a strike-through decorator type.
             UnderlineDecorator - Represents an underline decorator type.
             CommentDecorator - Represents a comment decorator type.
             NlCommentDecorator - Represents a new line comment decorator type.

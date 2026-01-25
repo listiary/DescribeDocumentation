@@ -18,11 +18,6 @@ Describe is built and developed for Listiary, but can also be used on its own. B
 [Listiary Wiki - Plugins](/listiary/wiki/plugins/)<br>
 [Listiary Wiki - Index](/listiary/wiki/index/)<br>
 [Listiary Wiki - Scripts](/listiary/wiki/scripts/)<br>
-[Social Outreach](/listiary/outreach/)<br>
 <br>
-[Subproject Documentation](/listiary/documentation/home/)<br>
-[Subproject Radiowatch](/listiary/radiowatch/)<br>
-<br>
-[Subproject Maps](/listiary/maps/)<br>
-[Video Documentation](/listiary/videodocs/)<br>
 [Project Describe](/language/)<br>
+[Back](/)<br>

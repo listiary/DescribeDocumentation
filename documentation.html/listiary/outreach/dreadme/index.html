@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Describe Markup Language | Documentation</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Describe Markup Language" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Describe Compiler Documentation" />
+<meta property="og:description" content="Describe Compiler Documentation" />
+<link rel="canonical" href="http://localhost:4000/listiary/outreach/dreadme/" />
+<meta property="og:url" content="http://localhost:4000/listiary/outreach/dreadme/" />
+<meta property="og:site_name" content="Documentation" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Describe Markup Language" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Describe Compiler Documentation","headline":"Describe Markup Language","url":"http://localhost:4000/listiary/outreach/dreadme/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Documentation" /></head>
+<body><header style="background-color: #ccc;" class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Documentation</a><nav style="background-color: #ccc;" class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+                <a class="page-link" href="/listiary/"><strong>Listiary Home</strong></a>
+                <a class="page-link" href="/language/"><strong>Describe Home</strong></a>
+                <a class="page-link" href="/listiary/maps/">Project Maps</a>
+                <a class="page-link" href="/listiary/outreach/">Social Outreach</a>
+                <a class="page-link" href="/listiary/videodocs/">Video Docs</a>
+                <a class="page-link" href="/listiary/maps/small-sitemap/"><strong>Site Map</strong></a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Describe Markup Language</h1>
+  </header>
+
+  <div class="post-content">
+    <p><img src="/assets/images/describe.png" alt="logo" style="height:100px;" /></p>
+
+<p><em>Maintaining large data lists, made easy</em><br />
+<em>Release: v1.0.1-beta</em><br />
+<em>License: AGPL v3</em><br /></p>
+
+<p>Describe is a markup language designed to write and maintain complex data lists that are compiled on demand to various formats, such as html, xml, sql and json. It is simple to use, intuitive and easy to master. Describe is readily extendible - implementing support for new target languages or customizing the transpilation process is straightforward, making it adaptable to a wide range of projects.<br /></p>
+
+<ul>
+  <li><a href="https://documentation.listiary.com/language/how-to-write/">Describe Language - A quick overview</a></li>
+  <li><a href="https://library.listiary.com/">Describe Language - 1001 source files directory</a></li>
+  <li><a href="https://documentation.listiary.com/">Describe Language - Official documentation</a></li>
+</ul>
+
+<p>Built on a state of the art parsing platform such as ANTLR 4.13, Describe offers a robust grammar, although the compiler is currently in beta and some bugs are to be expected. It is available for free under the AGPL v3 license, but commercial licenses are negotiable as well.<br /></p>
+
+<p>While ANTLR ensures strong grammar handling, the compiler is still under active development, and occasional bugs may occur. We appreciate your patience and value your contributions, as we continue to improve the tool.<br /></p>
+
+<p><br /></p>
+<h3 id="how-to">How to</h3>
+<p>In order to run the <code class="language-plaintext highlighter-rouge">DescribeCompilerCLI.exe</code> you need a Windows PC with DotNet framework version 8.0 or higher. In order to reference the <code class="language-plaintext highlighter-rouge">DescribeCompilerAPI.dll</code> in your DotNet projects, you need to target DotNet framework version 8.0 or higher. In order to use the Amazon Lambda project, on the other hand, you need to upload it to AWS. Also, be sure to check out our <a href="https://github.com/viktorchernev/DescribeCompiler/wiki">wiki</a> for the complete documentation.</p>
+
+<h4 id="0-set-up-highlighting">0. Set up highlighting</h4>
+<p>To enable Describe code highlighting, you can download the XML files for Notepad++ from the <a href="https://github.com/viktorchernev/DescribeCompiler/tree/master/!highlighting">Highlighting</a> folder, or follow the instructions there to set up another text editor of your choice. This method uses user-defined languages for highlighting, which is a bit limited and makeshift, but it works reasonably well. A more refined solution using editor plugins is preferable, but isn’t available yet.</p>
+
+<h4 id="1-write-describe-code">1. Write Describe code</h4>
+<p>Write a title of each list, followed by an arrow <code class="language-plaintext highlighter-rouge">-&gt;</code> and the elements, one on a line, separated by comma <code class="language-plaintext highlighter-rouge">,</code> and end with a semicolon <code class="language-plaintext highlighter-rouge">;</code>. Add <code class="language-plaintext highlighter-rouge">[links]</code> in square brackets, and <code class="language-plaintext highlighter-rouge">&lt;tag&gt;</code> items in order to piece lists together. Add additional data as <code class="language-plaintext highlighter-rouge">{decorators}</code> in curly brackets or as tilde inversions - <code class="language-plaintext highlighter-rouge">~</code>. For more info visit the <a href="https://documentation.listiary.com/">documentation</a>/<a href="https://github.com/viktorchernev/DescribeCompiler/wiki/Grammar-How-To">github</a> or explore Describe source codes and test cases in this <a href="https://library.listiary.com/">huge collection</a>/<a href="https://github.com/viktorchernev/DataLists/tree/master/Lists">github</a>.</p>
+
+<p><img src="/assets/images/describe-example1.png" alt="Example 1" style="border:3px solid black; height:300px; margin-bottom: 5px;" /><br /></p>
+
+<h4 id="2a-compile-using-cli">2a. <a href="https://github.com/viktorchernev/DescribeCompiler/wiki/CliCompiler-how-to">Compile (using CLI)</a></h4>
+<p>Run the CLI compiler by specifying the command as the first argument, the target folder (or file) as second argument and output file (or folder) as third argument. Add <a href="https://github.com/viktorchernev/DescribeCompiler/wiki/CliCompiler-how-to">options</a> after that, if needed.</p>
+
+<p><img src="/assets/images/describe-example2.png" alt="Example 2" style="border:3px solid black; height:300px; margin-bottom: 5px;" /><br /></p>
+
+<h4 id="2b-compile-using-api">2b. <a href="https://github.com/viktorchernev/DescribeCompiler/wiki/ApiCompiler-how-to">Compile (using API)</a></h4>
+<h4 id="2c-compile-using-aws">2c. <a href="https://github.com/viktorchernev/DescribeCompiler/wiki/AwsCompiler-how-to">Compile (using AWS)</a></h4>
+
+<h4 id="3-result">3. Result</h4>
+<p>The final output will depend on the translator used - and you can easily write your own translator, or use the ones that are prebuilt for you. Here we are using a set of particular HTML templates to build a bare-bone website. The JSON translator is one of the particularly usefull ones. With that tanslator you produce JSON that can be consumed from web applications.<br /></p>
+
+<p><img src="/assets/images/describe-example3.png" alt="Example 3" style="border:3px solid black; height:300px; margin-bottom: 5px;" /><br /></p>
+
+<p><br /></p>
+<h3 id="get-in-touch">Get in touch</h3>
+
+<p>Start a discussion in the GitHub discussions<br />
+Send an email <a href="mailto:contact@listiary.org">contact@listiary.org</a><br />
+Or, contact me - the founder, directly at <a href="mailto:vchernev91@abv.bg">vchernev91@abv.bg</a> (might take a few days)<br />
+You can reach me on Viber as well: +359-885-18-05-86<br /></p>
+
+<p><br /></p>
+<h2 id="sponsor">Sponsor</h2>
+<!-- Listiary and Describe are designed to give everyone open, modular, and accessible tools for knowledge management. We’re currently setting up an Open Collective page where you’ll be able to contribute in the near future. Your support helps keep the project free, sustainable, and continuously evolving. -->
+<p>You can now support Listiary directly through <a href="https://opencollective.com/listiary" target="_blank">Open Collective</a> - a transparent platform for community funding. Your donation helps keep the project free, sustainable, and continuously evolving.</p>
+
+<p><br /></p>
+<h2 id="releases">Releases</h2>
+<p>We are excited to present the Describe Markup Language Transpiler v1.0.<br /></p>
+
+<ul>
+  <li><a href="https://github.com/viktorchernev/DescribeCompiler/releases/tag/1.0.1-beta">1.0.1-beta</a> (CLI argument - auto)<br /></li>
+  <li><a href="https://github.com/viktorchernev/DescribeCompiler/releases/tag/1.0-beta">1.0.0-beta</a> (ANTLR4, Describe v1.1)<br /></li>
+  <li><a href="https://github.com/viktorchernev/DescribeCompiler/releases/tag/0.9.3">0.9.3</a> (Support for Describe Language v1.0 - Official)<br /></li>
+  <li><a href="https://github.com/viktorchernev/DescribeCompiler/releases/tag/0.9.2">0.9.2</a> (Added features and bugfixes)<br /></li>
+  <li><a href="https://github.com/viktorchernev/DescribeCompiler/releases/tag/0.9.1">0.9.1</a> (Refactoring, added features and bugfixes)<br /></li>
+  <li><a href="https://github.com/viktorchernev/DescribeCompiler/releases/tag/0.9">0.9.0</a> (Initial release - Open beta)<br /></li>
+</ul>
+
+<p><br /></p>
+<h2 id="notes">Notes</h2>
+<ul>
+  <li>We currently have inbuilt translators for HTML, XML, JSON and SQL (although the SQL one is just for uploading whole parsed files to a database). If you need to target other languages, or need specific functionality, you’d have to write your own translator class - it is very easy. I will give updates here when more translators are available.<br /></li>
+</ul>
+
+<p><br /></p>
+<h3 id="links">Links</h3>
+<p><a href="/listiary/outreach/">Back</a><br /></p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer style="background-color: #ccc;" class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+  
+	github: <a href="https://github.com/listiary/Listiary">Listiary</a>, <a href="https://github.com/listiary/DescribeCompiler">DescribeCompiler</a><br>email: <a class="u-email" href="mailto:contact@listiary.org">contact@listiary.org</a>, <a class="u-email" href="mailto:vchernev91@abv.bg">vchernev91@abv.bg</a><!-- <h2 class="footer-heading">Documentation</h2> 
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Documentation</li><li><a class="u-email" href="mailto:vchernev91@abv.bg">vchernev91@abv.bg</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/viktorchernev"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">viktorchernev</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Describe Compiler Documentation</p>
+      </div>
+    </div>-->
+
+  </div>
+
+</footer>
+</body>
+
+</html>

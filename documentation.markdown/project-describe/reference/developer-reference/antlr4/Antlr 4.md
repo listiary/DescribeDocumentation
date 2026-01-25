@@ -6,7 +6,7 @@ exclude: true
 ---
 <br>This project is the Antlr 4 runtime for C#. The Describe Transpiler is powered by an ANTLR 4 parser, and that parser is built on this runtime.
 
-There are two official Antlr 4 runtimes for C# available online, and this might bring about a significant amount of confusion, so the need to clarify. This is the one found here - [github.com](https://github.com/antlr/antlr4/tree/dev/runtime/CSharp). It is the supperior one in my oppinion, as it supports .Net Standart - thus supporting different platforms, as opposed to supporting only Windows. It is supposed be the most frequently-updated one as well.
+There are two official Antlr 4 runtimes for C# available online, and this might bring about a significant amount of confusion, so the need to clarify. This is the one found here - [github.com](https://github.com/antlr/antlr4/tree/dev/runtime/CSharp). It is the superior one in my opinion, as it supports .Net Standard - thus supporting different platforms, as opposed to supporting only Windows. It is supposed be the most frequently-updated one as well.
 
 I don't have much else to say about it - I haven't got the time to look into the source code much, and it is a significantly-complex piece of software, at about 29 000 lines of code and is heavily utilizing interfaces and polymorphism. I am sure much can be learned from studying the source code, as well as reading the book - "The Definitive ANTLR 4 Reference", but it is not essential, and is not my priority.
 

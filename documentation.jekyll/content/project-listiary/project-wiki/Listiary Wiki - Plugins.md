@@ -16,7 +16,7 @@ It is used to bypass the PHP source loading sequence and load a local JS / JSON 
 
 ### 2. Stream Player
 The Stream Player plugin is an audio player with a visualization, that plays audio streams directly inside Listiary.
-The way this works is by reading the contents of a list before it is being visualized and determining wether it contains playable audio streams. If so, the player is displayed, and those items containing the streams are highlighted with a particular color, and their behaviour is altered, so that they no longer open a link in new tab, but instead change the source stream of the stream player.
+The way this works is by reading the contents of a list before it is being visualized and determining whether it contains playable audio streams. If so, the player is displayed, and those items containing the streams are highlighted with a particular color, and their behavior is altered, so that they no longer open a link in new tab, but instead change the source stream of the stream player.
 It has 3 modes of operation - TestMode, ExtensionMode and DecoratorMode. In extension mode, the plugin will scan all the items' last links (if more than one) for an extension that is known to be an audio stream. In decorator mode, the player will scan items for decorators `audio-stream` or `radio-stream`, and in test mode, the player will appear inside a list with a given id, and will play a predetermined audio source when played - regardless of the list's contents - just for the sake of testing the player - but this last option will be removed for production.
 <br>
 <br>

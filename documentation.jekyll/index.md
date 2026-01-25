@@ -3,26 +3,38 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Listiary Documentation
+title:
 # permalink: /listiary/
 exclude: true
 ---
-<br>While Describe is a markup language for writing complex lists, Listiary is a wiki software for such lists, powered by Describe. The same way as Wikipedia, where users write articles in Wiki markup, in Listiary users write lists in Describe markup.
+<img src="{{ site.baseurl }}/assets/images/listiary.png" alt="logo" style="height:150px; display:block; margin:auto;">
+<br><br><br><br>
+Listiary is an experimental wiki project built around lists rather than articles. The basic idea is simple: lists are treated as their own kind of object, not as formatting inside text. That decision shapes most of the system, from how content is written to how it changes over time.
 
-Describe is built and developed for Listiary, but can also be used on its own. Both Listiary and Describe are free and copyleft-ed, under the [GNU Affero General Public License, version 3 (AGPLv3)](https://www.gnu.org/licenses/agpl-3.0.html).
+<br>
+Instead of assuming a single central wiki, Listiary uses a distributed model. Content can live on different servers, and people choose which sources they want to load or follow. There’s no requirement that everything collapse into one canonical version, which makes it easier for lists to diverge, evolve, or exist in parallel.
 
+<br>
+Listiary also has its own small language for writing lists, called Describe. It’s meant to be readable and consistent, without feeling like programming. The language exists mainly to make lists easier to express, compare, and process, not to be clever for its own sake.
+
+<br>
+The platform is intentionally built in a straightforward way, using plain JavaScript and PHP. The goal is to keep the system understandable and maintainable over time, rather than optimized for scale or growth. It’s closer to something you can read and tinker with than something you have to learn around.
+
+<br>
+This is still a work in progress. We’re developing it carefully, because the ideas feel interesting enough to explore properly. There’s no fixed roadmap or end state in mind; we’re building it, paying attention to how it behaves, and seeing where it leads.
+
+<br>
 <br>
 ### Links
-[Listiary Wiki](/listiary/wiki/)<br>
-[Listiary Wiki - Repo map](/listiary/wiki/repo-map/)<br>
-[Listiary Wiki - Plugins](/listiary/wiki/plugins/)<br>
-[Listiary Wiki - Index](/listiary/wiki/index/)<br>
-[Listiary Wiki - Scripts](/listiary/wiki/scripts/)<br>
-[Social Outreach](/listiary/outreach/)<br>
+[Project Listiary](/listiary/)<br>
+[Project Describe](/language/)<br>
 <br>
-[Subproject Documentation](/listiary/documentation/home/)<br>
-[Subproject Radiowatch](/listiary/radiowatch/)<br>
+[subpr. Documentation](/listiary/documentation/home/)<br>
+[subpr. Video Documentation](/listiary/videodocs/)<br>
+[subpr. Maps](/listiary/maps/)<br>
+[subpr. Social Outreach](/listiary/outreach/)<br>
 <br>
-[Subproject Maps](/listiary/maps/)<br>
-[Video Documentation](/listiary/videodocs/)<br>
+[wikipr. Radiowatch](/listiary/radiowatch/)<br>
+[wikipr. Wikipedian](/listiary/wikipedian/)<br>
+<br>
 [Project Describe](/language/)<br>

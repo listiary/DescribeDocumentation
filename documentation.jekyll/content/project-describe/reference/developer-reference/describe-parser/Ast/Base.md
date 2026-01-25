@@ -4,7 +4,7 @@ title: DescribeParser.Ast namespace - Abstract Syntax Tree
 permalink: /language/reference/dev/tanspiler/parser/ast/base/
 exclude: true
 ---
-<br>The Base folder contains the base class and the interfaces for the members of the AST. These are the base classes and interfaces for the Abstract Syntax Tree. `SourcePosition` describes the position of the first and the last character in a Node. AstNode is the base class for all the Nodes in the abstract syntax tree. It implement the IAstNode interface. Every IAstNode - that is, every AstNode, that is every node in the abstract syntax tree should implement the appropriate methods thus being directly translateable to string representation, to JSON representation, and to source code. Finally, every node in the abstract syntax tree can be IAstChildNode and IAstBranchNode, and most are both, with the exception of the top-level and bottom level classes.
+<br>The Base folder contains the base class and the interfaces for the members of the AST. These are the base classes and interfaces for the Abstract Syntax Tree. `SourcePosition` describes the position of the first and the last character in a Node. AstNode is the base class for all the Nodes in the abstract syntax tree. It implement the IAstNode interface. Every IAstNode - that is, every AstNode, that is every node in the abstract syntax tree should implement the appropriate methods thus being directly translatable to string representation, to JSON representation, and to source code. Finally, every node in the abstract syntax tree can be IAstChildNode and IAstBranchNode, and most are both, with the exception of the top-level and bottom level classes.
 
 <br>
 ## 1. IAstNode
@@ -48,7 +48,7 @@ The base class for the AST
 ## 3. IAstChildNode
 
 Represents a child node in an abstract syntax tree (AST).
-Being a child node means that a node is not the top level one, and has its place in the heirarchy, thus representing a chunk of the source code, and we want to know the position of that chunk, so that we can highlight it or replace/change it if needed.
+Being a child node means that a node is not the top level one, and has its place in the hierarchy, thus representing a chunk of the source code, and we want to know the position of that chunk, so that we can highlight it or replace/change it if needed.
 
         
         Position - Gets/sets the position of the node within the source code. A `SourcePosition` object representing the position of the node, or `null` if the position is not set.
