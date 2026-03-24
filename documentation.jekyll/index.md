@@ -7,8 +7,23 @@ title:
 # permalink: /listiary/
 exclude: true
 ---
-<img src="{{ site.baseurl }}/assets/images/listiary.png" alt="logo" style="height:150px; display:block; margin:auto;">
-<br><br><br><br>
+<style>
+  .hero-logo {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+  @media (max-width: 768px) {
+    .hero-logo {
+      max-width: 100%;
+    }
+  }
+</style>
+<br>
+<img src="{{ site.baseurl }}/assets/images/listiary.png" alt="logo" class="hero-logo">
+<br><br><br>
 Listiary is an experimental wiki project built around lists rather than articles. The basic idea is simple: lists are treated as their own kind of object, not as formatting inside text. That decision shapes most of the system, from how content is written to how it changes over time.
 
 <br>
@@ -36,5 +51,3 @@ This is still a work in progress. We’re developing it carefully, because the i
 <br>
 [wikipr. Radiowatch](/listiary/radiowatch/)<br>
 [wikipr. Wikipedian](/listiary/wikipedian/)<br>
-<br>
-[Project Describe](/language/)<br>
