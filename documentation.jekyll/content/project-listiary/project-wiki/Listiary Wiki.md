@@ -23,5 +23,6 @@ Ready to dive in? Start exploring the documentation below.
 [Listiary Wiki - Plugins](/listiary/wiki/plugins/)<br>
 [Listiary Wiki - Index](/listiary/wiki/index/)<br>
 [Listiary Wiki - Scripts](/listiary/wiki/scripts/)<br>
+[Listiary Wiki - Database](/listiary/wiki/database/)<br>
 <br>
 [Back](/listiary/)

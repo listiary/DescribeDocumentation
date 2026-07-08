@@ -3,20 +3,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Listiary Wiki Project | Documentation</title>
+<title>Database - Versioning | Documentation</title>
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="Listiary Wiki Project" />
+<meta property="og:title" content="Database - Versioning" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Describe Compiler Documentation" />
 <meta property="og:description" content="Describe Compiler Documentation" />
-<link rel="canonical" href="http://localhost:4000/listiary/wiki/" />
-<meta property="og:url" content="http://localhost:4000/listiary/wiki/" />
+<link rel="canonical" href="http://localhost:4000/listiary/wiki/database/versioning/" />
+<meta property="og:url" content="http://localhost:4000/listiary/wiki/database/versioning/" />
 <meta property="og:site_name" content="Documentation" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Listiary Wiki Project" />
+<meta property="twitter:title" content="Database - Versioning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Describe Compiler Documentation","headline":"Listiary Wiki Project","url":"http://localhost:4000/listiary/wiki/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Describe Compiler Documentation","headline":"Database - Versioning","url":"http://localhost:4000/listiary/wiki/database/versioning/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Documentation" /></head>
 <body><header style="background-color: #ccc;" class="site-header" role="banner">
@@ -45,32 +45,53 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Listiary Wiki Project</h1>
+    <h1 class="post-title">Database - Versioning</h1>
   </header>
 
   <div class="post-content">
     <p><br />
-Welcome to Listiary Wiki - the web app at the center of the whole Listiary ecosystem, and the Listiary wiki project, tasked with developing and maintaining the wiki software.
-<br />
-<br />
-Listiary Wiki is built specifically for creating and sharing curated lists — whether they’re linking to Wikipedia articles, YouTube videos, or other sources across the web. Think of it as a Wikipedia or Fandom-style experience, but focused entirely on interconnected lists.
-<br />
-<br />
-The software is developed using PHP and JavaScript, with a modular structure designed for flexibility and growth. While we’re still in active development, a working prototype of the mobile version is already available. It’s not perfect yet — you might run into a few bugs — but that’s all part of the beta testing adventure.
-<br />
-<br />
-Ready to dive in? Start exploring the documentation below.
-<br />
+In Listiary, subsystems are versioned internally - like separate pieces of software that come together - which they kind of are, in all fairness.<br />
+Currently, the database is in version 0.3.1<br /><br /></p>
+
+<h3 id="v-01---initial">v 0.1 - Initial</h3>
+<p><span style="color:blue"><strong><em>Main data</em></strong></span> - staged_documents, compiled_documents, accounts<br />
+<em>The accounts table is a simple dummy one - accounts were not properly implemented</em>
+<br /><br /></p>
+
+<h3 id="v-02---more-sophistication">v 0.2 - More sophistication</h3>
+<p><span style="color:blue"><strong><em>Main data</em></strong></span> - describe_documents, compiled_documents<br />
+<span style="color:blue"><strong><em>Metadata</em></strong></span> - housekeeping_itemid_filename, housekeeping_filename_related<br />
+<span style="color:blue"><strong><em>Accounts</em></strong></span> - accounts<br />
+<em>We have added metadata for the stored documents, so the wiki can easily navigate them.</em>
+<em>Accounts are still dummy.</em>
+<br /><br /></p>
+
+<h3 id="v-03---fully-implemented-accounts">v 0.3 - Fully implemented accounts</h3>
+<p><span style="color:blue"><strong><em>Main data</em></strong></span> - describe_documents, compiled_documents<br />
+<span style="color:blue"><strong><em>Metadata</em></strong></span> - housekeeping_itemid_filename, housekeeping_filename_related<br />
+<span style="color:blue"><strong><em>Edit history</em></strong></span> - document_versions<br />
+<span style="color:blue"><strong><em>Accounts</em></strong></span> - accounts, account_details, persistent_logins<br />
+<span style="color:blue"><strong><em>Authentication</em></strong></span> - password_resets, login_attempts, register_success, password_reset_resends<br />
+<span style="color:blue"><strong><em>Authorization</em></strong></span> - permissions_account_roles, permissions_resource_accounts, permissions_resource_roles<br />
+<em>We have been working on properly implementing accounts in the wiki - or Authentication and Authorization, as it is known in security contexts</em>
+<br /><br /></p>
+
+<h3 id="v-031---slight-table-renaming">v 0.3.1 - slight table renaming</h3>
+<p><em>Some slight renaming of few indexes, otherwise - the same thing</em></p>
+
+<p><br />
 <br /></p>
 
 <h3 id="links">Links</h3>
-<p><a href="/listiary/wiki/repo-map/">Listiary Wiki - Repo map</a><br />
-<a href="/listiary/wiki/plugins/">Listiary Wiki - Plugins</a><br />
-<a href="/listiary/wiki/index/">Listiary Wiki - Index</a><br />
-<a href="/listiary/wiki/scripts/">Listiary Wiki - Scripts</a><br />
-<a href="/listiary/wiki/database/">Listiary Wiki - Database</a><br />
+<p><a href="/listiary/wiki/database/main/">Subsystems - Main Data</a><br />
+<a href="/listiary/wiki/database/metadata/">Subsystems - Metadata (Housekeeping)</a><br />
+<a href="/listiary/wiki/database/history/">Subsystems - Edit history</a><br />
+<a href="/listiary/wiki/database/accounts/">Subsystems - Accounts</a><br />
+<a href="/listiary/wiki/database/auth/">Subsystems - Permissions (Authorization)</a><br />
 <br />
-<a href="/listiary/">Back</a></p>
+<a href="/listiary/wiki/database/">Listiary Wiki - Database</a><br />
+<a href="/listiary/wiki/repo-map/">Listiary Wiki - Repo map</a><br />
+<a href="/listiary/wiki/">Back</a></p>
 
   </div>
 

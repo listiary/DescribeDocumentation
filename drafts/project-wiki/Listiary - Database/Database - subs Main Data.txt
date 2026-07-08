@@ -1,0 +1,20 @@
+2. Subsystems - Main Data
+These are the tables in the database where Listiary stores all the articles.
+We have 2 tables - one for raw Describe documents, that users can edit, and another for compiled documents that the wiki uses.
+Or -  `describe_documents` and `compiled_documents` respectively.
+`describe_documents` holds the Describe source files, and `compiled_documents` - the compiled versions of those files in JSON.
+There are also indexes for each of those tables - `idx_filename`, so that we can quickly search by filename.
+
+	```
+	describe_documents
+	  .id
+	  .filename
+	  .content
+	  .submitted_at
+	  
+	compiled_documents
+	  .id
+	  .filename
+	  .content
+	  .submitted_at
+	```

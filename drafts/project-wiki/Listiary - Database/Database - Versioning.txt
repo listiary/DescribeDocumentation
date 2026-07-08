@@ -1,0 +1,27 @@
+1. Versioning
+In Listiary, subsystems are versioned internally - like separate pieces of software that come together - which they kind of are, in all fairness.
+Currently, the database is in version 0.3.1
+
+	v 0.1 - Initial
+	Main data - staged_documents, compiled_documents, accounts
+	* The accounts table is a simple dummy one - accounts were not properly implemented
+
+	v 0.2 - More sophistication
+	Main data - describe_documents, compiled_documents
+	Metadata - housekeeping_itemid_filename, housekeeping_filename_related
+	Accounts - accounts
+	* We have added metadata for the stored documents, so the wiki can easily navigate them.
+	* Accounts are still dummy.
+
+	v 0.3 
+	Main data - describe_documents, compiled_documents
+	Metadata - housekeeping_itemid_filename, housekeeping_filename_related
+	Edit history - document_versions
+	Accounts - accounts, account_details, persistent_logins
+	Authentication - password_resets, login_attempts, register_success, password_reset_resends
+	Authorization - permissions_account_roles, permissions_resource_accounts, permissions_resource_roles
+	* We have been working on properly implementing accounts in the wiki - or Authentication and Authorization,
+	* as it is known in security contexts
+
+	v 0.3.1
+	* Some slight renaming of few indexes, otherwise - the same thing

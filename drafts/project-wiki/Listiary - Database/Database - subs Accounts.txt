@@ -1,0 +1,159 @@
+5. Subsystems - Accounts
+This subsystem involves all the tables needed for authorization and authentication - actions connected to accounts.
+But also there are tables related to the account system, that handle temporary tokens, persistent login tokens, rate limiters, etc.
+The accounts table is the main one.
+
+	5.1. Accounts
+	`id` - every user has unique account id.
+	`username` - the user's username
+	`email` - the user's email
+	`usercode` - don't know if we need to remove this, when we have a user id, but it is an unique code for each user - like a hash
+	`password_hash` - the hash of the password
+	
+	`is_bot` - boolean - whether the account is a bot or a human
+	`is_active` - boolean - whether the account is activated (email has been verified)
+	`is_premium` - boolean - whether the account is a paid or a free one. Paid accounts enjoy additional perks.
+	
+	`created_at` - account creation timestamp
+	`verification_token` - this token is present while the account is still not activated.
+	Activation removes the record - as we don't need it any more.
+	
+	5.2. Account Details
+	`account_id` - every user has unique account id. It links this table to the previous one.
+	
+		5.2.1. Avatar related
+		We support few different, customize-able avatar shapes.
+		`avatar_path` - The path of the avatar file. At the moment, we are uploading avatars on the server.
+		`avatar_shape` - The shape word - like triangle or square. We allow different avatar shapes.
+		`avatar_shape_radius` - The angle radius of the avatar shape.
+		`avatar_updated_at` - The date when the avatar was updated last.
+		
+		5.2.2. Profile fields
+		We have floated the idea about having multiple biographies with a likelihood to show one, in percents.
+		`bio` - The user's biography
+		`city` - The user's place of residence
+		`country` - The user's country of residence
+		`timezone` - The user's timezone.
+		
+		5.2.3. Social links
+        `link_personal_website` - User's personal website URL
+		`link_personal_facebook` - User's facebook account URL
+		`link_personal_xcom` - User's x.com account URL
+		`link_personal_linkedin` - User's linkedin account URL
+		`link_personal_other` - User's other social media URL
+		
+		5.2.4. Optional contact phone
+		`phone1` - User's phone
+		`phone1_verified` - Weather the user's phone is verified
+		`phone2` - User's additional phone
+		`phone2_verified` - Weather the user's additional phone is verified
+		
+	5.3. Persistent logins
+	The `persistent_logins` table is responsible for handling the persistent login tokens,
+	and that - remember me for up to an year checkbox functionality on login.
+	`id` - The id of the record.
+    `user_id` - The id of the user.
+    `selector` - Selector for the persistent login mechanism.
+    `token_hash` - Token hash for the persistent login mechanism.
+    `created_at` - The token creation timestamp.
+    `expires_at` - The token expiration time.
+	
+	5.4. Password resets
+	The `password_resets` table is responsible for the password resets.
+	`email` - the email address submitted for the password reset.
+	`token` - the password reset token
+	
+	5.5. Rate limiters
+	There are a few rate limiters for different account related actions, 
+	that we use to hinder the ability of an attacker to bruteforce and such.
+	
+		5.5.1. Login Attempts Rate Limiter
+		This functionality limits how many times a user can try to login unsuccessfully
+		before entering a timeout for too many attempts.
+		`id` - The id of the item.
+		`email` - The login email.
+		`ip_address` - The ip address of the user attempting to log in.
+		`attempt_time` - The attempt time?
+		
+		5.5.2. Register Success Rate Limiter
+		This functionality limits how many accounts can an ip address register.
+		`id` - The id of the item.
+		`email` - The register email.
+		`ip_address` - The ip address of the user registering an account.
+		`attempt_time` - The last registration time?
+		
+		5.5.3. Password Reset Resends Rate Limiter
+		This functionality limits how many password reset links / emails can a user request.
+		This serves to limit actors from abusing the forgot password functionality to cause denial of service.
+		`id` - The id of the item.
+		`email` - The user's email.
+		`ip_address` - The ip address of the user requesting a password reset.
+		`send_time` - The timestamp of last reset request?
+
+		```
+		accounts
+		  .id
+		  .username
+		  .email
+		  .usercode
+		  .password_hash
+		  .is_bot
+		  .is_active
+		  .is_premium
+		  .created_at
+		  .verification_token
+
+		account_details
+		  .account_id
+		  .avatar_path
+		  .avatar_shape
+		  .avatar_shape_radius
+		  .avatar_updated_at
+		  .bio
+		  .city
+		  .country
+		  .timezone
+		  .link_personal_website
+		  .link_personal_facebook
+		  .link_personal_xcom
+		  .link_personal_linkedin
+		  .link_personal_other
+		  .phone1
+		  .phone1_verified
+		  .phone2
+		  .phone2_verified
+
+		password_resets
+		  .email
+		  .token
+
+
+
+		persistent_logins
+		  .id
+		  .user_id
+		  .selector
+		  .token_hash
+		  .created_at
+		  .expires_at
+
+
+
+		login_attempts
+		  .id
+		  .email
+		  .ip_address
+		  .attempt_time
+
+		register_success
+		  .id
+		  .email
+		  .ip_address
+		  .attempt_time
+
+		password_reset_resends
+		  .id
+		  .email
+		  .ip_address
+		  .send_time
+		```

@@ -1,0 +1,14 @@
+3. Subsystems - Metadata (Housekeeping)
+These are metadata for the files in the wiki - so that Listiary knows which compiled JSON files to prefetch and which to render.
+`housekeeping_itemid_filename` table links Describe item ids to filenames they are defined in.
+`housekeeping_filename_related` table links files to files needed when loading them.
+
+	```
+	housekeeping_itemid_filename
+		.filename
+		.item_id
+
+	housekeeping_filename_related
+		.filename
+		.related_filename
+	```

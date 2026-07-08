@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Database - Accounts | Documentation</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Database - Accounts" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Describe Compiler Documentation" />
+<meta property="og:description" content="Describe Compiler Documentation" />
+<link rel="canonical" href="http://localhost:4000/listiary/wiki/database/accounts/" />
+<meta property="og:url" content="http://localhost:4000/listiary/wiki/database/accounts/" />
+<meta property="og:site_name" content="Documentation" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Database - Accounts" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Describe Compiler Documentation","headline":"Database - Accounts","url":"http://localhost:4000/listiary/wiki/database/accounts/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Documentation" /></head>
+<body><header style="background-color: #ccc;" class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Documentation</a><nav style="background-color: #ccc;" class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+                <a class="page-link" href="/listiary/"><strong>Listiary Home</strong></a>
+                <a class="page-link" href="/language/"><strong>Describe Home</strong></a>
+                <a class="page-link" href="/listiary/maps/">Project Maps</a>
+                <a class="page-link" href="/listiary/outreach/">Social Outreach</a>
+                <a class="page-link" href="/listiary/videodocs/">Video Docs</a>
+                <a class="page-link" href="/listiary/maps/small-sitemap/"><strong>Site Map</strong></a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Database - Accounts</h1>
+  </header>
+
+  <div class="post-content">
+    <p><br />
+This subsystem involves all the tables needed for authorization and authentication - actions connected to accounts.<br />
+But also there are tables related to the account system, that handle temporary tokens, persistent login tokens, rate limiters, etc.<br />
+The accounts table is the main one.<br />
+<br /><br /></p>
+
+<h3 id="accounts">Accounts</h3>
+<p><span style="color:blue"><strong><em>id</em></strong></span> - every user has unique account id.<br />
+<span style="color:blue"><strong><em>username</em></strong></span> - the user’s username<br />
+<span style="color:blue"><strong><em>email</em></strong></span> - the user’s email<br />
+<span style="color:blue"><strong><em>usercode</em></strong></span> - don’t know if we need to remove this, when we have a user id, but it is an unique code for each user - like a hash<br />
+<span style="color:blue"><strong><em>password_hash</em></strong></span> - the hash of the password<br />
+<br />
+<span style="color:blue"><strong><em>is_bot</em></strong></span> - boolean - whether the account is a bot or a human<br />
+<span style="color:blue"><strong><em>is_active</em></strong></span> - boolean - whether the account is activated (email has been verified)<br />
+<span style="color:blue"><strong><em>is_premium</em></strong></span> - boolean - whether the account is a paid or a free one. Paid accounts enjoy additional perks.
+<br />
+<span style="color:blue"><strong><em>created_at</em></strong></span> - account creation timestamp<br />
+<span style="color:blue"><strong><em>verification_token</em></strong></span> - this token is present while the account is still not activated.<br />
+Activation removes the record - as we don’t need it any more.<br />
+<br /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>accounts
+  .id
+  .username
+  .email
+  .usercode
+  .password_hash
+  .is_bot
+  .is_active
+  .is_premium
+  .created_at
+  .verification_token
+</code></pre></div></div>
+<p><br /><br /></p>
+
+<h3 id="account-details">Account Details</h3>
+<p><code class="language-plaintext highlighter-rouge">account_id</code> - every user has unique account id. It links this table to the previous one.<br /></p>
+
+<p><strong><em>Avatar related</em></strong><br />
+We support few different, customize-able avatar shapes.<br />
+<span style="color:blue"><strong><em>avatar_path</em></strong></span> - The path of the avatar file. At the moment, we are uploading avatars on the server.<br />
+<span style="color:blue"><strong><em>avatar_shape</em></strong></span> - The shape word - like triangle or square. We allow different avatar shapes.<br />
+<span style="color:blue"><strong><em>avatar_shape_radius</em></strong></span> - The angle radius of the avatar shape.<br />
+<span style="color:blue"><strong><em>avatar_updated_at</em></strong></span> - The date when the avatar was updated last.<br />
+<br />
+<strong><em>Profile fields</em></strong><br />
+We have floated the idea about having multiple biographies with a likelihood to show one, in percents.<br />
+<span style="color:blue"><strong><em>bio</em></strong></span> - The user’s biography<br />
+<span style="color:blue"><strong><em>city</em></strong></span> - The user’s place of residence<br />
+<span style="color:blue"><strong><em>country</em></strong></span> - The user’s country of residence<br />
+<span style="color:blue"><strong><em>timezone</em></strong></span> - The user’s timezone.<br />
+<br />
+<strong><em>Social links</em></strong><br />
+<span style="color:blue"><strong><em>link_personal_website</em></strong></span> - User’s personal website URL<br />
+<span style="color:blue"><strong><em>link_personal_facebook</em></strong></span> - User’s facebook account URL<br />
+<span style="color:blue"><strong><em>link_personal_xcom</em></strong></span> - User’s x.com account URL<br />
+<span style="color:blue"><strong><em>link_personal_linkedin</em></strong></span> - User’s linkedin account URL<br />
+<span style="color:blue"><strong><em>link_personal_other</em></strong></span> - User’s other social media URL<br />
+<br />
+<strong><em>Optional contact phone</em></strong><br />
+<span style="color:blue"><strong><em>phone1</em></strong></span> - User’s phone<br />
+<span style="color:blue"><strong><em>phone1_verified</em></strong></span> - Weather the user’s phone is verified<br />
+<span style="color:blue"><strong><em>phone2</em></strong></span> - User’s additional phone<br />
+<span style="color:blue"><strong><em>phone2_verified</em></strong></span> - Weather the user’s additional phone is verified<br />
+<br /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>account_details
+  .account_id
+  .avatar_path
+  .avatar_shape
+  .avatar_shape_radius
+  .avatar_updated_at
+  .bio
+  .city
+  .country
+  .timezone
+  .link_personal_website
+  .link_personal_facebook
+  .link_personal_xcom
+  .link_personal_linkedin
+  .link_personal_other
+  .phone1
+  .phone1_verified
+  .phone2
+  .phone2_verified
+</code></pre></div></div>
+<p><br /><br /></p>
+
+<h3 id="persistent-logins">Persistent logins</h3>
+<p>The <code class="language-plaintext highlighter-rouge">persistent_logins</code> table is responsible for handling the persistent login tokens, and that - remember me for up to an year checkbox functionality on login.<br /></p>
+
+<p><span style="color:blue"><strong><em>id</em></strong></span> - The id of the record.<br />
+<span style="color:blue"><strong><em>user_id</em></strong></span> - The id of the user.<br />
+<span style="color:blue"><strong><em>selector</em></strong></span> - Selector for the persistent login mechanism.<br />
+<span style="color:blue"><strong><em>token_hash</em></strong></span> - Token hash for the persistent login mechanism.<br />
+<span style="color:blue"><strong><em>created_at</em></strong></span> - The token creation timestamp.<br />
+<span style="color:blue"><strong><em>expires_at</em></strong></span> - The token expiration time.<br />
+<br /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>persistent_logins
+  .id
+  .user_id
+  .selector
+  .token_hash
+  .created_at
+  .expires_at
+</code></pre></div></div>
+<p><br /><br /></p>
+
+<h3 id="password-resets">Password resets</h3>
+<p>The <code class="language-plaintext highlighter-rouge">password_resets</code> table is responsible for the password resets.<br /></p>
+
+<p><span style="color:blue"><strong><em>email</em></strong></span> - the email address submitted for the password reset.<br />
+<span style="color:blue"><strong><em>token</em></strong></span> - the password reset token<br />
+<br /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>password_resets
+  .email
+  .token
+</code></pre></div></div>
+<p><br /><br /></p>
+
+<h3 id="rate-limiters">Rate limiters</h3>
+<p>There are a few rate limiters for different account related actions, that we use to hinder the ability of an attacker to brute-force and such.<br /></p>
+
+<p><strong><em>Login Attempts Rate Limiter</em></strong><br />
+This functionality limits how many times a user can try to login unsuccessfully before entering a timeout for too many attempts.<br />
+<span style="color:blue"><strong><em>id</em></strong></span> - The id of the item.<br />
+<span style="color:blue"><strong><em>email</em></strong></span> - The login email.<br />
+<span style="color:blue"><strong><em>ip_address</em></strong></span> - The ip address of the user attempting to log in.<br />
+<span style="color:blue"><strong><em>attempt_time</em></strong></span> - The attempt time?<br />
+<br />
+<strong><em>Register Success Rate Limiter</em></strong><br />
+This functionality limits how many accounts can an ip address register.<br />
+<span style="color:blue"><strong><em>id</em></strong></span> - The id of the item.<br />
+<span style="color:blue"><strong><em>email</em></strong></span> - The register email.<br />
+<span style="color:blue"><strong><em>ip_address</em></strong></span> - The ip address of the user registering an account.<br />
+<span style="color:blue"><strong><em>attempt_time</em></strong></span> - The last registration time?<br />
+<br />
+<strong><em>Password Reset Resend Rate Limiter</em></strong><br />
+This functionality limits how many password reset links / emails can a user request.<br />
+This serves to limit actors from abusing the forgot password functionality to cause denial of service.<br />
+<span style="color:blue"><strong><em>id</em></strong></span> - The id of the item.<br />
+<span style="color:blue"><strong><em>email</em></strong></span> - The user’s email.<br />
+<span style="color:blue"><strong><em>ip_address</em></strong></span> - The ip address of the user requesting a password reset.<br />
+<span style="color:blue"><strong><em>send_time</em></strong></span> - The timestamp of last reset request?<br />
+<br /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>login_attempts
+  .id
+  .email
+  .ip_address
+  .attempt_time
+
+register_success
+  .id
+  .email
+  .ip_address
+  .attempt_time
+
+password_reset_resends
+  .id
+  .email
+  .ip_address
+  .send_time
+</code></pre></div></div>
+
+<p><br />
+<br /></p>
+
+<h3 id="links">Links</h3>
+<p><a href="/listiary/wiki/database/versioning/">Versioning</a><br />
+<a href="/listiary/wiki/database/main/">Subsystems - Main Data</a><br />
+<a href="/listiary/wiki/database/metadata/">Subsystems - Metadata (Housekeeping)</a><br />
+<a href="/listiary/wiki/database/history/">Subsystems - Edit history</a><br />
+<a href="/listiary/wiki/database/auth/">Subsystems - Permissions (Authorization)</a><br />
+<br />
+<a href="/listiary/wiki/database/">Listiary Wiki - Database</a><br />
+<a href="/listiary/wiki/repo-map/">Listiary Wiki - Repo map</a><br />
+<a href="/listiary/wiki/">Back</a></p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer style="background-color: #ccc;" class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+  
+	github: <a href="https://github.com/listiary/Listiary">Listiary</a>, <a href="https://github.com/listiary/DescribeCompiler">DescribeCompiler</a><br>email: <a class="u-email" href="mailto:contact@listiary.org">contact@listiary.org</a>, <a class="u-email" href="mailto:vchernev91@abv.bg">vchernev91@abv.bg</a><!-- <h2 class="footer-heading">Documentation</h2> 
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Documentation</li><li><a class="u-email" href="mailto:vchernev91@abv.bg">vchernev91@abv.bg</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/viktorchernev"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">viktorchernev</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Describe Compiler Documentation</p>
+      </div>
+    </div>-->
+
+  </div>
+
+</footer>
+</body>
+
+</html>

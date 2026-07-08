@@ -1,0 +1,11 @@
+Listiary Database
+
+The Listiary wiki is a PHP based app with an SQL database (Maria DB) powering it.
+This section explains the structure of this database.
+
+	1. Versioning
+	2. Subsystems - Main Data
+	3. Subsystems - Metadata (Housekeeping)
+	4. Subsystems - Edit history
+	5. Subsystems - Accounts
+	6. Subsystems - Permissions (Authorization)

@@ -1,0 +1,48 @@
+6. Subsystems - Permissions (Authorization)
+This subsystem is responsible for permissions management in the wiki -
+or who is allowed to access, edit, read etc. what. This is also called Authorization.
+A user is authenticated when he logs in, and then authorized to access a particular resource.
+
+	6.1. Account Roles
+	The `permissions_account_roles` table defines which user has what role.
+	The roles users can have are: 'USER_VIEWER', 'USER_EDITOR', 'USER_SPONSOR', 'USER_MODERATOR', 'USER_ADMIN', 'USER_GOD'
+	`account_id` - the id of the user account.
+	`account_role` - the role the user has in the wiki.
+	
+	6.2. Permissions per Item per User
+	Users can have different roles for their account, and those dictate what they can do on all unrestricted items, articles, etc.
+	But items like articles or namespaces can also have specific permissions per user (or user group).
+	So, for example, an item can be restricted to a specific user, or a specific user can be given permission to edin a specific resource.
+	`id` - id of the item
+	`resource_type` - the type of the resource being accessed: 'ARTICLE'
+	`resource_id` - the id of the resource or article for example
+	`account_id` - the id of the user in question
+	`permission_level` - what this user is allowed to do: 'READ', 'WRITE', 'MANAGE'
+	
+	6.3. Permissions per Item per Role
+	What user role can access what item and do what with it.
+	`id` - id of the item
+	`resource_type` - the type of the resource being accessed: 'ARTICLE'
+	`resource_id` - the id of the resource or article for example
+	`account_role` - the role the user has in the wiki. The roles users can have are: 'USER_VIEWER', 'USER_EDITOR', 'USER_SPONSOR', 'USER_MODERATOR', 'USER_ADMIN', 'USER_GOD'
+	`permission_level` - what this user is allowed to do: 'READ', 'WRITE', 'MANAGE'
+	
+	```
+	permissions_account_roles 
+	  .account_id
+	  .account_role
+
+	permissions_resource_accounts
+	  .id
+	  .resource_type
+	  .resource_id
+      .account_id
+	  .permission_level
+	
+	permissions_resource_roles
+	  .id
+	  .resource_type
+	  .resource_id
+	  .account_role
+	  .permission_level
+	```
