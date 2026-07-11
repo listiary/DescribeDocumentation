@@ -1,5 +1,5 @@
 Article type: 						`Test Todo`<br>
-Article name:						`TestTodo - SparkLib Download-Upload`<br>
+Article name:						`TestTodo - SparkLib - Download-Upload`<br>
 Affected Software/module:			`SparkLib`, `SparlCli`<br>
 Author:								`Framez`<br>
 <br>

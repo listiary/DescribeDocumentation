@@ -1,5 +1,5 @@
 Article type: 						`Feature Suggestion`<br>
-Article name:						`SuggestFeature - Internet Access Check on some exceptions`<br>
+Article name:						`SuggestFeature - SparkLib - Internet Access Check on some exceptions`<br>
 Affected Software/module:			`SparkLib`, `SparkCli`<br>
 Author:								`Framez`<br>
 <br>

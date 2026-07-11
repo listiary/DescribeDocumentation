@@ -1,5 +1,5 @@
 Article type: 						`Feature Suggestion`<br>
-Article name:						`SuggestFeature - Log function parameter`<br>
+Article name:						`SuggestFeature - SparkLib - Log function parameter`<br>
 Affected Software/module:			`SparkLib`, `SparkCli`<br>
 Author:								`Framez`<br>
 <br>
@@ -11,7 +11,3 @@ A better, more interactive way is to pass a logger function to each function, an
 so that the consumer of SparkCli can pass something like for example - a console logging function, and receive the output immediately.
 <br><br>
 This is done in few functions in the library, but I am suggesting that this should be the norm in the next release or SparkLib
-
-```
-public static function Database_Curate_Ids(mysqli $link, ?callable $logger = null)
-```
