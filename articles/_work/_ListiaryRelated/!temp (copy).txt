@@ -1,0 +1,26 @@
+nebula				x
+Ba					x
+Auddio				x 		16.May
+Boosteroid			12.May
+
+
+boxlapse videos
+POV cooking
+Vending Machine Extravaganza in JAPAN: Over 100 Machines Selling
+
+https://bg.dnaweekly.com/
+https://detoxcenter.eu/produkt-kategoriya/hranitelni-dobavki/tezhki-metali/
+https://ostrovit.bg/38163/		- 200g NAC (60)
+----------------------------------------------- 
+
+https://www.youtube.com/watch?v=TRBZ7p4NWwc
+Разкажи нещо за Велико Търново някога. Освен Жоро Вълев - Пашата и Емо Черния / hells angels, нарко-групировките на Айдън, Миро Черния и Мартин Бемката, Иван Досков.
+
+
+Why are my decorators empty in the songs in the json translator?
+make lengthier lists needed to add the bottom controls - otherwise they are half-visible
+Add song being played title to stream player plugin
+Artist - Song VS Song - Artist on mobile for better readability
+// zoom popping on mobile when selecting over items w thumb
+Dot '...' appears in certain situations even if it does not hide anything and disappears on being clicked
+Realtime syntax highlighting using Monaco or CodeMirror

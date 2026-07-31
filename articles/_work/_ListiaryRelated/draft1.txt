@@ -1,0 +1,30 @@
+intro
+user info
+links explained
+tech info
+tech contacts
+
+
+we are looking for donations, of course. 
+but also, we are looking for few people, likely 3-4, to make our core team. Vanilla js and php. I am not hang up on titles and certificates, but complete juniors and people who constantly rely on others are noy well suited for this project either.
+The compiler is in C# but I can handle that. we need js php some sql devs. we need a writer absolutely, to do blog posts, social media posts, handle pr and fund raising. we might need a graphic designer, but we might be able to hire a freelsncer. we deffinetely need a logo and a brand created, after which, I dont know how much willl we need design. the core team will be paid - first symbolically to none, then it time, a more liveable amount. We value slower-paced, liberal workflow - everyone submits work whenever he feels like. want to take a week or two break - also ok. we are about development out of love for the craft and pride for ownership of foss. if you feel like youd rather do something else then work on the project at a moment, you shouldnt force yourself to code.
+‐-----------------------
+Excellent — this has a lot of heart already. Here’s a smoothed-out version that keeps your honest, conversational tone and indie-FOSS spirit, without making it sound too corporate or overpolished:
+
+
+---
+
+We’re looking for a few things right now — donations, of course, but also a small core team of around three or four people. The tech stack is pretty simple: mostly vanilla JS, PHP, and a bit of SQL. The compiler’s in C#, but I’ve got that part covered.
+
+I’m not hung up on titles or certificates. What matters is that you can work independently and take ownership of what you build. Total beginners or folks who constantly need guidance probably won’t be a good fit for this stage.
+
+We also really need a writer — someone who can handle blog posts, social media, PR, and help with fundraising. A graphic designer would be great too; we might hire a freelancer for that, but we definitely need a logo and some basic branding to start.
+
+The core team will be paid — at first symbolically or not much at all, but the plan is to move toward something more sustainable over time.
+
+Our workflow is intentionally slow-paced and flexible. People contribute when they can, take breaks when they need to, and come back refreshed. This project is about building something out of love for the craft, and pride in creating and owning free and open-source software. If you’d rather do something else for a while, that’s totally fine — don’t force yourself to code when it doesn’t feel right.
+
+
+---
+
+Would you like me to make a slightly shorter version (for video narration or a website “Join us” section), or keep expanding it into something a bit more inviting and story-like for your intro video?

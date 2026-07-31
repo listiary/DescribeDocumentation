@@ -1,0 +1,7 @@
+`z_artifactorium`
+Files we no longer need but we preserve for historic value - like drafts for some features.
+A bit like a museum. 
+
+`z_tools`
+Tools we use to build or develop the project. Like secret leak detectors.
+

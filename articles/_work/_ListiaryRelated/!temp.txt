@@ -1,0 +1,85 @@
+https://detoxcenter.eu/produkt-kategoriya/hranitelni-dobavki/tezhki-/
+https://skills.github.com/
+https://learn.microsoft.com/en-us/training/browse/?products=github&resource_type=learning%20path
+
+OpenAI block before 24 Nov
+OpenAI unarchive convos while I still have a premium account
+
+mom's recipe on pancakes   https://recepti.gotvach.bg/?kw=%D0%9F%D0%B0%D0%BB%D0%B0%D1%87%D0%B8%D0%BD%D0%BA%D0%B8%20%D0%BE%D1%82%20%D0%BE%D0%B2%D0%B5%D1%81%D0%B5%D0%BD%D0%B8%20%D1%82%D1%80%D0%B8%D1%86%D0%B8
+
+popped peppers article
+
+Donations & Sponsorships - Open Source Maintainership [https://www.youtube.com/watch?v=hILUhL_l_bU],
+Contributing to Open Source Can Change Your Life - Here’s How to Do It [https://www.youtube.com/watch?v=CML6vfKjQss],
+How I made $25K from an Open Source Project (As a Developer) [https://www.youtube.com/watch?v=Hsq1WiZVHTU],
+How to contribute to open source projects (our community project walkthrough) [https://www.youtube.com/watch?v=dLRA1lffWBw],
+How to Start a Nonprofit with No Money [https://www.youtube.com/watch?v=BFu6Ptclq_E],
+
+Sponsor to get an achievement - https://github.com/sponsors/egoist?frequency=one-time&sponsor=viktorchernev
+
+<a href="https://github.com/egoist/donate"><img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat" alt="donate"></a>
+
+<p align="center"><a href="https://npmjs.com/package/changelog.md"><img src="https://img.shields.io/npm/v/changelog.md.svg?style=flat" alt="NPM version"></a> <a href="https://npmjs.com/package/changelog.md"><img src="https://img.shields.io/npm/dm/changelog.md.svg?style=flat" alt="NPM downloads"></a> <a href="https://circleci.com/gh/EGOIST/changelog.md"><img src="https://img.shields.io/circleci/project/egoist/changelog.md/master.svg?style=flat" alt="Build Status"></a> <a href="https://github.com/egoist/donate"><img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat" alt="donate"></a></p>
+
+![GitHub](https://img.shields.io/github/license/livecycle/preevy) ![GitHub last commit](https://img.shields.io/github/last-commit/livecycle/preevy) [![Version](https://img.shields.io/npm/v/preevy.svg)](https://npmjs.org/package/preevy)
+
+
+//codeviewer URL
+https://development.listiary.net/m.codeviewer/m.codeviewer.php?article=radiowatch&domain=public&itemid=radiowatch.rnode
+testdemon:D3vSm00sh7
+speak better narrator training chat - https://chatgpt.com/c/69019566-10b4-8331-8bfe-db2a5ab81300
+https://www.authorsbreeze.com/article-writing-services/
+https://hackernoon.com/the-ultimate-playbook-for-getting-more-github-stars
+-----------------------------------------------
+fix donate button
+fix other menus
+fix documentation URL
+
+Work on the main page index.md of the documentation
+Tag and categorize your repo well
+
+
+-------------------------------------------------------
+Sibling lists - those can be switched to
+with an icon near the top - every sibling
+list has an icon. If they are defined with a list,
+that list's structure can be translated to those icons structure.
+For our second example below, we can have icons order:
+
+(2)(3)
+   (4)
+-------------------------------------------------------
+list 1 ->
+
+  :sibling <list2id>,
+  :sibling <list3id>,
+
+  some,
+  items;
+
+list 1 ->
+
+  :siblings ->
+    list2id, list3id,
+    list4id;
+
+  some,
+  items;
+-------------------------------------------------------
+
+
+stewp (noun) — a dish that sits between soup and stew; a soup so hearty it could almost be eaten with a fork, or a stew that’s just a bit too brothy. Example: “I tried to make spinach and egg soup, but it turned into a stewp.”
+
+stewp
+(noun)
+
+A dish that exists halfway between a soup and a stew — a soup so thick it could pass for a stew, or a stew that’s suspiciously runny.
+
+The inevitable result when you get a little too generous with the ingredients while making soup.
+
+Example:
+
+“I was going for spinach and egg soup, but it turned into a stewp.”
+
+Origin:
+Blend of stew and soup, similar in logic to brunch.

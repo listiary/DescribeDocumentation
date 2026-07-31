@@ -1,0 +1,80 @@
+
+
+
+
+
+
+Workflowy / Dynalist (for outliners),
+
+Roam / Logseq (for bidirectional knowledge graphs),
+
+and Notion databases (for list-centric organization),
+but fully open source and federated — which could be a big differentiator.
+
+
+
+
+
+
+Basecamp / Signal v. Noise (clear, opinionated writing)
+Joel on Software (personal + technical narrative)
+GitHub Engineering Blog (balanced clarity and tech)
+Ars Technica features (deep but readable longform)
+OpenAI / Hugging Face / Mozilla blogs (how open-source orgs talk about philosophy)
+
+
+
+⚙️ 2. Pick the purpose before you draft
+
+For every piece, answer:
+
+Who am I trying to reach? (devs, contributors, users, funders, peers)
+
+What do I want them to do? (install, comment, share, fund)
+
+Where will they see this? (link context shapes tone)
+
+What emotional state should they leave in? (curious, trusting, inspired)
+
+Even one-sentence clarity on those four keeps you from writing “fits-everywhere” text.
+
+
+
+4. A practical workflow
+
+Write the canonical version on your own domain.
+
+Fork for each outlet:
+
+GitHub → remove emotion, add code examples.
+
+HN/Reddit → add story and trade-offs.
+
+Medium → add reflections and analogies.
+
+LinkedIn → highlight teamwork, sustainability.
+
+Cross-link them (“This post explains why; see GitHub for how.”)
+
+
+
+
+I won’t be focusing on other (important) aspects of open source growth, such as: converting visitors to active users, encouraging contributions to the project, best practices for repo maintenance, building a community around your project, or deciding what to build in the first place.
+
+These are all worthy topics but for another time.
+
+
+
+
+
+Present the tool directly - We wrote a number of posts that talk about Preevy directly. What it is, why we built it, and who we think can benefit from it. These can be very effective when they are written in an authentic, human way.
+
+Present the tool indirectly as part of a larger project - We wrote a number of “How-to” posts that show how to build a cool project, including Preevy as part of the stack.
+
+Listicles - We put together a few list-based articles that had an open-source angle to them. “5 Projects that will help you learn [some framework],” or “10 new open source repositories you need to know about in 2023,” or something similar. We included Preevy in the list when relevant, but not every time.
+
+Building in public - Open source is about sharing with others. So we wrote several posts explaining how we solved an interesting problem or how we achieved a relevant milestone (like this post, for example)
+
+
+Dev.to, Hashnode, Hackernoon, and Medium
+#show dev.to

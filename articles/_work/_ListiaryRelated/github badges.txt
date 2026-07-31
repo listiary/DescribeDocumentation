@@ -1,0 +1,5 @@
+<a href="https://github.com/egoist/donate"><img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat" alt="donate"></a>
+
+<p align="center"><a href="https://npmjs.com/package/changelog.md"><img src="https://img.shields.io/npm/v/changelog.md.svg?style=flat" alt="NPM version"></a> <a href="https://npmjs.com/package/changelog.md"><img src="https://img.shields.io/npm/dm/changelog.md.svg?style=flat" alt="NPM downloads"></a> <a href="https://circleci.com/gh/EGOIST/changelog.md"><img src="https://img.shields.io/circleci/project/egoist/changelog.md/master.svg?style=flat" alt="Build Status"></a> <a href="https://github.com/egoist/donate"><img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat" alt="donate"></a></p>
+
+![GitHub](https://img.shields.io/github/license/livecycle/preevy) ![GitHub last commit](https://img.shields.io/github/last-commit/livecycle/preevy) [![Version](https://img.shields.io/npm/v/preevy.svg)](https://npmjs.org/package/preevy)
