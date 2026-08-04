@@ -1,0 +1,19 @@
+
+entries on the same line idea
+
+multiline entries
+
+option to add templates and ignoring empty templates
+
+
+prefix-suffix prefix-decorator replacer directives
+decorators infront of text so can be replaced "[x]| to "{color:gray}" or "{color|gray}"
+tagdef <urgent | color : red, bold>
+works via replacement
+directives -> "    ", "^" <replace>,
+
+
+short and shorter tags
+title <-
+    induction 1 <shorter>,
+    ind2 <shorter>;

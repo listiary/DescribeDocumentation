@@ -1,1 +1,0 @@
-Connected entries where decorators on one affect the other
