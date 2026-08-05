@@ -1,5 +1,5 @@
 Article type: 						`Architectural`<br>
-Article name:						`Architectural - Editor - Compound titles`<br>
+Article name:						`Architectural - Editor - Monaco`<br>
 Affected Software/module:			`Editor Module`<br>
 Author:								`Framez`<br>
 

@@ -1,5 +1,5 @@
-Article type: 						`Documentary`<br>
-Article name:						`Documentary - Spark 0.6 - Suggest Actions`<br>
+Article type: 						`SuggestFeature`<br>
+Article name:						`SuggestFeature - Spark 0.6 - Suggest Actions`<br>
 Affected Software/module:			`SparkCli`, `SparkLib`<br>
 Author:								`Framez`<br>
 <br>
