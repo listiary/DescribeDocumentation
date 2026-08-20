@@ -12,6 +12,13 @@ exclude: true
 Describe is built and developed for Listiary, but can also be used on its own. Both Listiary and Describe are free and copyleft-ed, under the [GNU Affero General Public License, version 3 (AGPLv3)](https://www.gnu.org/licenses/agpl-3.0.html).
 
 <br>
+### Modules of Listiary
+Those are the Listiary base modules currently under development.
+
+<br>
+<img src="{{ site.baseurl }}/assets/images/listiary-modules.png" alt="listiary-modules" style="height:auto; width:auto; max-width:100%; max-height:320px;">
+
+<br>
 ### Links
 [Listiary Wiki](/listiary/wiki/)<br>
 [Listiary Wiki - Repo map](/listiary/wiki/repo-map/)<br>
