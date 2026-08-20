@@ -1,5 +1,0 @@
-W1. Listener Bots - metadata
-
-W2. Website playlists
-
-W3. Radio metadata APIs

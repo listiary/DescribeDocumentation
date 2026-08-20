@@ -1,5 +1,0 @@
-job <-
-
-	title: 			Scaffolder,
-	field: 			Construction,
-	category: 		A;

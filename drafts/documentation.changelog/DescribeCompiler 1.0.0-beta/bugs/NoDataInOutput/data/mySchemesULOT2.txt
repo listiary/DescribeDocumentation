@@ -1,9 +1,0 @@
-Understanding Level Of Topic ->
-
-    No knowledge,
-	Superficial knowledge,
-	Familiarity,
-	Competency,
-	Proficiency,
-	Expertise,
-	Mastery;
