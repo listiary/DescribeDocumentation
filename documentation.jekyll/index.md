@@ -44,11 +44,8 @@ This is still a work in progress. We’re developing it carefully, because the i
 [Project Listiary](/listiary/)<br>
 [Project Describe](/language/)<br>
 <br>
+[subpr. Describe Library](https://library.listiary.org/)<br>
 [subpr. Documentation](/listiary/documentation/home/)<br>
-[subpr. Video Documentation](/listiary/videodocs/)<br>
+[subpr. Documedia](https://documedia.listiary.org/)<br>
 [subpr. Maps](/listiary/maps/)<br>
-[subpr. Social Outreach](/listiary/outreach/)<br>
 [subpr. Articles](/listiary/articles/)<br>
-<br>
-[wikipr. Radiowatch](/listiary/radiowatch/)<br>
-[wikipr. Wikipedian](/listiary/wikipedian/)<br>
