@@ -1,28 +1,33 @@
-# documentation
-
-### `documentation.changelog`
-Contains text/markdown files describing bugs, features and ideas, both implemented in the past and ones for future consideration and/or implementation.
-
-### `documentation.testing`
-Contains text/markdown files and artifacts regarding tests ran against the latest version and previous versions, by version.
-
-### `documentation.github`
-This directory contains the downloaded backup of the GitHub wiki for this repository. Also, contains the `README.md` and other such files from the repo.
-
-### `documentation.markdown`
-This is the full documentation in markdown files, with Jekyll front matter / YAML to link them.
-Contains a collection of markdown files that compose the complete documentation for this repository, and can also include additional documentation, like documentation about the Describe Language, for example. These files include Jekyll front matter, are arranged in folder structure, and link to each other. They are the source code for a Jekyll website.
-
-### `documentation.jekyll`
-The same information as `documentation.markdown`, but contains a jekyll template for building a static website from that markdown.
-
-### `documentation.html`
-The same information as `documentation.jekyll`, but contains the built static website from that jekyll template directory.
-
-### `examples`
-Contains examples of Describe source code files and pictures of those files with highlighting.
+`/articles`<br>
+When users submit articles and write-ups about bugs or features they want to
+suggest about the Describe Markup Language, or Listiary, or any one of the
+subprojects in the `listiary` organization, they should end up here, one way
+or another, and later - they should be added to subproject Articles on the
+documentation website.<br><br>
 
 
-<br><br>
-# !work
-This folder contains different files that have been worked on in the past and could be useful for future work.
+`/website` - The documentation website home. <br>
+`/website/source_markdown` - contains the initial markdown version of the documentation website.<br>
+`/website/source_jekyll` - contains the Jekyll website, including those markdown files.<br>
+`/website/output_html` - this is the final static website built with Jekyll.<br>
+```
+/website
+    /source_markdown
+    /source_jekyll
+    /output_html
+```
+<br>
+
+`/z_artifactorium`<br>
+Contains useless but sometimes interesting files from the development process - 
+like old drafts - just for the sake of curiosity.<br><br>
+
+`/z_github_wikis`<br>
+Some of the repositories in the GitHub organization `listiary` might have 
+GitHub wikis - and this place contains copies of those wikis, for purely 
+archival purposes.<br><br>
+
+`/z_drafts`<br>
+This is a temporary work area where users may choose to work on some articles
+before adding them to the `website` folder, instead of working directly there,
+which is totally optional, at the moment.
