@@ -24,20 +24,5 @@ Contains examples of Describe source code files and pictures of those files with
 
 
 <br><br>
-# !redundant
-This folder contains backup copies of the few other repositories that are essential to the Describe Markup Language. 
-
-
-### `DescribeLibrary`
-A large collection of Describe source files.
-
-### `DescribeLanguage`
-Describe Markup Language related stuff - grammars, test files for those grammars, highlighting config files, media.
-
-### `DescribeCompiler`
-The Transpiler for the Describe Markup Language.
-
-
-<br><br>
 # !work
 This folder contains different files that have been worked on in the past and could be useful for future work.
