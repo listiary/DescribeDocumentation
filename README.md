@@ -6,9 +6,7 @@ _Documentation for the Describe Markup Language_
   
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-Describe is a markup language used to write and maintain complex data lists that are compiled on demand to html, xml, sql, json and any other language needed. Describe is simple to use, intuitive and easy to master, and readily extendable.
-
-This repository contains the documentation for the language.
+The DescribeDocumentation repository is the home of the documentation website for the Listiary GitHub organization, [documentation.listiary.org](https://documentation.listiary.org/). It contains the documentation for both the Listiary wiki engine and the Describe markup language, along with the source files and other supporting material used to build and maintain the website.
 
 
 ## Get in touch  

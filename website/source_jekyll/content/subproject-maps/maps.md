@@ -11,8 +11,11 @@ In other words, users come here to easily navigate the Listiary (and Describe) p
 
 <br>
 ### Maps
+[Repository Listing](/listiary/maps/repos/)<br>
+[DescribeLanguage Directories](/listiary/maps/repo-lang/)<br>
+[DescribeDocumentation Directories](/listiary/maps/repo-docs/)<br>
+<br>
 [Short Site Map](/listiary/maps/small-sitemap/)<br>
-[Repository Listing](/listiary/maps/core-repos/)<br>
 [Main Listiary URLs](/listiary/maps/core-urls/)<br><br>
 <!-- ### Full Listings -->
 [Full Site Map - Describe](/listiary/maps/sitemap-describe/)<br>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Repo Listing
-permalink: /listiary/maps/core-repos/
+permalink: /listiary/maps/repos/
 exclude: true
 ---
 <br>
