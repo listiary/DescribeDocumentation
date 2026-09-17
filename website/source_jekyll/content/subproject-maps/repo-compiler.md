@@ -16,8 +16,9 @@ The git folder.<br>
 
 `/.github`<br>
 Documents related to GitHub workflows, policies, etc.<br>
-
+Importantly, `FUNDING.yml`, that sets the URLs for the '♡Sponsor' button.<br>
 <br>
+
 ```
 /release
 /release/0.9.0

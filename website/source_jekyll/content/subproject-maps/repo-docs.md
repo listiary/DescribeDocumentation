@@ -11,6 +11,14 @@ The [DescribeDocumentation](https://github.com/listiary/DescribeDocumentation) r
 
 ### Directories<br>
 
+`/.git`<br>
+The git folder.<br>
+
+`/.github`<br>
+Documents related to GitHub workflows, policies, etc.<br>
+Importantly, `FUNDING.yml`, that sets the URLs for the '♡Sponsor' button.<br>
+<br>
+
 `/articles`<br>
 When users submit articles and write-ups about bugs or features they want to suggest about the Describe Markup Language, or Listiary, or any one of the sub-projects in the `listiary` organization, they should end up here, one way or another, and later - they should be added to sub-project Articles on the documentation website.<br>
 

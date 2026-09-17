@@ -11,6 +11,14 @@ The [DescribeLanguage](https://github.com/listiary/DescribeLanguage) repository 
 
 ### Directories<br>
 
+`/.git`<br>
+The git folder.<br>
+
+`/.github`<br>
+Documents related to GitHub workflows, policies, etc.<br>
+Importantly, `FUNDING.yml`, that sets the URLs for the '♡Sponsor' button.<br>
+<br>
+
 `/Grammar`<br>
 This is the folder containing the grammar files for the Describe Markup Language - the older ones for the GOLD parser engine, and the new ones, for ANTLR4. Also, the ANTLR4 jar executable file is here.<br>
 

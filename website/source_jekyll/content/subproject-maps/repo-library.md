@@ -11,6 +11,14 @@ The [DescribeLibrary](https://github.com/listiary/DescribeLibrary) repository co
 
 ### Directories<br>
 
+`/.git`<br>
+The git folder.<br>
+
+`/.github`<br>
+Documents related to GitHub workflows, policies, etc.<br>
+Importantly, `FUNDING.yml`, that sets the URLs for the '♡Sponsor' button.<br>
+<br>
+
 `/Library`<br>
 This is the online-browseable public library repository of source files.<br>
 It is available here - [Describe Language Library](https://library.listiary.net/)
