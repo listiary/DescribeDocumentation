@@ -12,10 +12,13 @@ In other words, users come here to easily navigate the Listiary (and Describe) p
 <br>
 ### Maps
 [Repository Listing](/listiary/maps/repos/)<br>
+[Listiary Directories](/listiary/maps/repo-listiary/)<br>
+[ListiarySpark Directories](/listiary/maps/repo-spark/)<br>
 [DescribeCompiler Directories](/listiary/maps/repo-compiler/)<br>
 [DescribeLanguage Directories](/listiary/maps/repo-lang/)<br>
 [DescribeDocumentation Directories](/listiary/maps/repo-docs/)<br>
 [DescribeLibrary Directories](/listiary/maps/repo-library/)<br>
+[Repository Common Folders](/listiary/maps/repo-common/)<br>
 <br>
 [Short Site Map](/listiary/maps/small-sitemap/)<br>
 [Main Listiary URLs](/listiary/maps/core-urls/)<br><br>
