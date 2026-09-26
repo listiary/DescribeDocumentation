@@ -1,5 +1,0 @@
-my car <-
-
-    color: yellow,
-    brand : Opel Corsa,
-    context: induction arrow demo;
