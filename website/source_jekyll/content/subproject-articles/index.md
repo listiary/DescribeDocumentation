@@ -32,6 +32,7 @@ Articles are meant to be easy to browse, easy to reference, and useful over time
 [Remark - Inside Out](/listiary/articles/oowz8b4xz5/)<br>
 [Remark - Social Media Shareable](/listiary/articles/oowz8b4xz6/)<br>
 [Remark - Monetary Policy](/listiary/articles/oowz8b4xz7/)<br>
+[Remark - Incentivized work](/listiary/articles/oowz8b4jsd/)<br>
 
 [Axiome - Documentation - Documentation Roles](/listiary/articles/oowz8b4xx2/)<br>
 [Axiome - Documentation - Writeups](/listiary/articles/gbm2bl8ej8/)<br>
@@ -44,8 +45,10 @@ Articles are meant to be easy to browse, easy to reference, and useful over time
 [SuggestFeature - Describe - Connected Entries](/listiary/articles/x7qm6ft8r1/)<br>
 [SuggestFeature - Describe - Compound headings](/listiary/articles/cdi9rp4cce/)<br>
 [SuggestFeature - Describe - Cumulative Directives](/listiary/articles/tplez18am3/)<br>
+[SuggestFeature - Describe - Currency Codes](/listiary/articles/cdi9rjdj90/)<br>
 [SuggestFeature - Describe - Defining Decorators](/listiary/articles/x1pvmf1ndw/)<br>
 [SuggestFeature - Describe - Extend tag](/listiary/articles/f1jyy7f5wa/)<br>
+[SuggestFeature - Describe - Hide tag](/listiary/articles/f1jyr7f5wa/)<br>
 [SuggestFeature - Describe - Features](/listiary/articles/cyuko3g6jo/)<br>
 [SuggestFeature - Describe - Front Decorators Links Tags](/listiary/articles/ttr34jvtpu/)<br>
 [SuggestFeature - Describe - Inductions](/listiary/articles/qjgeali6kw/)<br>
@@ -58,6 +61,7 @@ Articles are meant to be easy to browse, easy to reference, and useful over time
 [SuggestFeature - Documentation - FAQ](/listiary/articles/zsub7o6bre/)<br>
 [SuggestFeature - Documentation - Submission](/listiary/articles/fe0w27n964/)<br>
 [SuggestFeature - Documentation - UI Map](/listiary/articles/kq400gou95/)<br>
+[SuggestFeature - Documentation - To PDF](/listiary/articles/kq400gou96//)<br>
 [SuggestFeature - Editor - Edit per section](/listiary/articles/d2qybhg5kk/)<br>
 [SuggestFeature - Editor - Folding](/listiary/articles/hz6mj5sm08/)<br>
 [SuggestFeature - Editor - Highlighting](/listiary/articles/cye651fe7b/)<br>
@@ -74,6 +78,8 @@ Articles are meant to be easy to browse, easy to reference, and useful over time
 [SuggestFeature - Index - Scroll Decorators](/listiary/articles/ik53uhp0ie/)<br>
 [SuggestFeature - Index - Sibling lists](/listiary/articles/ulcw3dkc35/)<br>
 [SuggestFeature - Index - Title styling](/listiary/articles/dhruz7q9au/)<br>
+[SuggestFeature - Index - Titlebar Color Palette](/listiary/articles/dhruhdj9au/)<br>
+[SuggestFeature - Index - Wrap Expand](/listiary/articles/bzvpjvrh4m/)<br>
 [SuggestFeature - Index - Zoom finger](/listiary/articles/bzvpjvdh2m/)<br>
 [SuggestFeature - Plugin - Map](/listiary/articles/zrq261hajt/)<br>
 [SuggestFeature - Session - View Password](/listiary/articles/edpefxxi8n/)<br>
@@ -98,6 +104,7 @@ Articles are meant to be easy to browse, easy to reference, and useful over time
 [Bug - Describe Editor - Highlighting](/listiary/articles/ieg6m48ttg/)<br>
 [Bug - Index - Highlighting Cyrillic Entries](/listiary/articles/pwmkidp5dc/)<br>
 [Bug - Index - Title Bar Styling](/listiary/articles/iokcgxquk2/)<br>
+[Bug - Index - Misnavigation in Breadcrumb](/listiary/articles/iohtgxquk2/)<br>
 [Resolved - Describe Compiler - Empty decorators](/listiary/articles/pqzq1nhrqn/)<br>
 [Resolved - Index - Bottom buttons](/listiary/articles/qq18ihc4qo/)<br>
 <br><br>
