@@ -11,6 +11,16 @@ In other words, users come here to easily navigate the Listiary (and Describe) p
 
 <br>
 ### Maps
+[Main Listiary URLs](/listiary/maps/core-urls/)<br>
+[Main Listiary URLs short](/listiary/maps/core-urls-short/)<br>
+[Contact channels](/listiary/maps/contact-urls/)<br>
+<br>
+[Part Site Map - Listiary](/listiary/maps/submap-listiary/)<br>
+[Part Site Map - Describe Language](/listiary/maps/submap-describe-lang/)<br>
+[Part Site Map - Describe Compiler](/listiary/maps/submap-describe-tech/)<br>
+[Site Map - Describe](/listiary/maps/describe/)<br>
+[Site Map - Listiary](/listiary/maps/listiary/)<br>
+<br>
 [Repository Listing](/listiary/maps/repos/)<br>
 [Listiary Directories](/listiary/maps/repo-listiary/)<br>
 [ListiarySpark Directories](/listiary/maps/repo-spark/)<br>
@@ -19,12 +29,6 @@ In other words, users come here to easily navigate the Listiary (and Describe) p
 [DescribeDocumentation Directories](/listiary/maps/repo-docs/)<br>
 [DescribeLibrary Directories](/listiary/maps/repo-library/)<br>
 [Repository Common Folders](/listiary/maps/repo-common/)<br>
-<br>
-[Short Site Map](/listiary/maps/small-sitemap/)<br>
-[Main Listiary URLs](/listiary/maps/core-urls/)<br><br>
-<!-- ### Full Listings -->
-[Full Site Map - Describe](/listiary/maps/sitemap-describe/)<br>
-[Full Main Listiary URLs](/listiary/maps/full-core-urls/)<br>
 
 <br>
 ### Links

@@ -54,6 +54,11 @@ Articles are meant to be easy to browse, easy to reference, and useful over time
 [SuggestFeature - Describe - Inductions](/listiary/articles/qjgeali6kw/)<br>
 [SuggestFeature - Describe - Multyline Entries](/listiary/articles/kxlr51usm3/)<br>
 [SuggestFeature - Describe - Nl Decorators](/listiary/articles/oriakpjtou/)<br>
+[SuggestFeature - Describe - Bgcolor Decorator](/listiary/articles/oriakiktou/)<br>
+[SuggestFeature - Describe - Bold Decorator](/listiary/articles/orijopktou/)<br>
+[SuggestFeature - Describe - Italic Decorator](/listiary/articles/orioppktou/)<br>
+[SuggestFeature - Describe - Underline Decorator](/listiary/articles/opslopktou/)<br>
+[SuggestFeature - Describe - Striked Decorator](/listiary/articles/opslopleru/)<br>
 [SuggestFeature - Describe - Replace Directive](/listiary/articles/k5kvu02r00/)<br>
 [SuggestFeature - Describe - Short and Shorter Decorators](/listiary/articles/kmvgmbne96/)<br>
 [SuggestFeature - Describe - Statistics](/listiary/articles/qejydi3n1c/)<br>

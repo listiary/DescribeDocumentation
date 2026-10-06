@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Listiary Technical Reference | Documentation</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Listiary Technical Reference" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Describe Compiler Documentation" />
+<meta property="og:description" content="Describe Compiler Documentation" />
+<link rel="canonical" href="http://localhost:4000/listiary/wiki/tech/" />
+<meta property="og:url" content="http://localhost:4000/listiary/wiki/tech/" />
+<meta property="og:site_name" content="Documentation" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Listiary Technical Reference" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Describe Compiler Documentation","headline":"Listiary Technical Reference","url":"http://localhost:4000/listiary/wiki/tech/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Documentation" /></head>
+<body><header style="background-color: #ccc;" class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Documentation</a><nav style="background-color: #ccc;" class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+                <a class="page-link" href="/listiary/"><strong>project Listiary Home</strong></a>
+                <a class="page-link" href="/language/"><strong>project Describe Home</strong></a>
+				<a class="page-link" href="https://library.listiary.org/">subproject Describe Library</a>
+				<a class="page-link" href="/listiary/documentation/home/">subproject Documentation</a>
+				<a class="page-link" href="https://documedia.listiary.org/">subproject Documedia</a>
+                <a class="page-link" href="/listiary/maps/">subproject Maps</a>
+                <a class="page-link" href="/listiary/articles/">subproject Articles</a>
+                <a class="page-link" href="/listiary/maps/small-sitemap/"><strong>Site Map</strong></a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Listiary Technical Reference</h1>
+  </header>
+
+  <div class="post-content">
+    <p><br />
+This is the technical reference for the Listiary wiki platform.</p>
+
+<p>Describe is built and developed for Listiary, but can also be used on its own. Both Listiary and Describe are free and copyleft-ed, under the <a href="https://www.gnu.org/licenses/agpl-3.0.html">GNU Affero General Public License, version 3 (AGPLv3)</a>.</p>
+
+<p>Here you can find documentation on the architecture, components, modules, infrastructure, and other technical aspects of Listiary and its supporting software.
+This section is currently under development.
+<br /><br /><br /></p>
+
+<h3 id="modules-of-listiary">Modules of Listiary</h3>
+<p><img src="/assets/images/listiary-modules-2.png" alt="listiary-modules" style="height:auto; width:auto; max-width:100%; max-height:320px;" />
+<br /><br /></p>
+
+<p>The Listiary system can be divided into four layers:</p>
+<ul>
+  <li>hosting infrastructure</li>
+  <li>administrative modules</li>
+  <li>user-facing modules</li>
+  <li>standalone pages
+<br /><br /></li>
+</ul>
+
+<p>Hosting Layer - A Listiary installation requires conventional PHP/SQL-capable web hosting and an Amazon Web Services (AWS) account for its server-side services - namely the Describe compiler. The documentation site is hosted separately as a static site and does not need to be hosted by individual Listiary administrators.</p>
+<ul>
+  <li>PHP capable web hosting</li>
+  <li>SQL server (Maria DB compatible)</li>
+  <li>AWS lambda function micro service</li>
+  <li>Hosting for the static documentation site
+<br /><br /></li>
+</ul>
+
+<p>Administrative Modules - The administrative layer provides the tools required to install, configure, and administer a Listiary instance. It also includes the Session Module, which manages access and permissions, and Spark CLI, a separate console application for administering a Listiary backend from an operating-system console.</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Web Installer</code> - PHP based installer/configurator</li>
+  <li><code class="language-plaintext highlighter-rouge">Web Admin</code> - The admin panel</li>
+  <li><code class="language-plaintext highlighter-rouge">Session Module</code> - The accounts and session management</li>
+  <li><code class="language-plaintext highlighter-rouge">Spark CLI</code> - OS based admin framework. Separate software
+<br /><br /></li>
+</ul>
+
+<p>Userland Modules - These are the modules that users interact with during normal use of Listiary.</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Index Module</code> - the usual wiki view</li>
+  <li><code class="language-plaintext highlighter-rouge">Editor Module</code> - the Describe editor</li>
+  <li><code class="language-plaintext highlighter-rouge">Code Viewer Module</code> - similar to the editor, but read-only</li>
+  <li><code class="language-plaintext highlighter-rouge">History Module</code> - view/compare edit history</li>
+  <li><code class="language-plaintext highlighter-rouge">Search Module</code> - the search page/engine
+<br /><br /></li>
+</ul>
+
+<p>Standalone Pages - These are standalone pages that are adjacent to the core Listiary system and do not need to interact with it at a deeper level. The documentation site and legal pages are examples: they are part of the overall Listiary project, but do not depend on the wiki functionality itself.</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Documentation</code> - This documentation website</li>
+  <li><code class="language-plaintext highlighter-rouge">Legal Docs</code> - ToS, Cookie Consent, Privacy Policy and such</li>
+  <li><code class="language-plaintext highlighter-rouge">Contact Us</code> - contact us / bug report forms
+<br /><br /><br /></li>
+</ul>
+
+<h3 id="modules">Modules</h3>
+<p><a href="/listiary/wiki/spark/">Listiary Wiki - Spark</a><br />
+<a href="/listiary/wiki/database/">Listiary Wiki - Database</a><br />
+<br /><br /></p>
+
+<h3 id="links">Links</h3>
+<p><a href="/listiary/wiki/user/">User Documentation</a><br />
+<a href="/listiary/maps/submap-listiary/">Site SubMap</a><br />
+<br />
+<a href="/listiary/">Back</a><br /></p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer style="background-color: #ccc;" class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+  
+	github: <a href="https://github.com/listiary/Listiary">Listiary</a>, <a href="https://github.com/listiary/DescribeCompiler">DescribeCompiler</a><br>email: <a class="u-email" href="mailto:contact@listiary.org">contact@listiary.org</a>, <a class="u-email" href="mailto:vchernev91@abv.bg">vchernev91@abv.bg</a><!-- <h2 class="footer-heading">Documentation</h2> 
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Documentation</li><li><a class="u-email" href="mailto:vchernev91@abv.bg">vchernev91@abv.bg</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/viktorchernev"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">viktorchernev</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Describe Compiler Documentation</p>
+      </div>
+    </div>-->
+
+  </div>
+
+</footer>
+</body>
+
+</html>
